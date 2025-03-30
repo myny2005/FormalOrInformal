@@ -1,0 +1,986 @@
+JetBrains s.r.o. (formerly IntelliJ Software s.r.o.) is a  Czech software development private limited company which makes tools for software developers and project managers. The company has its headquarters in Amsterdam, and has offices in China, Europe, and the United States.
+The company offers integrated development environments (IDEs) for a variety of programming languages. The company created the Kotlin programming language, which can run in a Java virtual machine (JVM), in 2011.
+InfoWorld magazine awarded the firm "Technology of the Year Award" in 2011 and 2015.
+
+History
+JetBrains, initially called IntelliJ Software, was founded in 2000 in Prague by three Russian software developers: Sergey Dmitriev, Valentin Kipyatkov and Eugene Belyaev. The company's first product was IntelliJ Renamer, a tool for code refactoring in Java.
+In 2012 CEO Sergey Dmitriev was replaced by Oleg Stepanov and Maxim Shafirov.
+In 2021 The New York Times stated that unknown parties might have embedded malware in JetBrains' TeamCity CI/CD software that led to the SolarWinds hack and other widespread security compromises. In a press release, JetBrains said they had not been contacted by any government or security agency and had not "taken part or been involved in this attack in any way". The CEO of one of the affected companies, SolarWinds, "asked about the possibility that software tools made by JetBrains, which speeds the development and testing of code, was the pathway, Mr. Ramakrishna said there was still no evidence".
+In response to the 2022 Russian invasion of Ukraine, the company suspended sales and R&D activities in Russia indefinitely as well as sales in Belarus. JetBrains' Russian legal entity was liquidated on 21 February 2023.
+Effective 1 February 2024, Kirill Skrygan replaced Max Shafirov as CEO.
+
+Products
+IDEs
+The following is a non-exhaustive list of integrated development environments (IDEs) distributed by JetBrains.
+
+Programming languages
+Kotlin is an open-source, statically typed programming language that runs on the Java Virtual Machine and also compiles to JavaScript or native code (via LLVM). The name comes from the Kotlin Island, near St. Petersburg. 
+JetBrains MPS is an open-source language workbench for domain-specific languages (DSLs). 
+Ktor is a Kotlin-based programming framework for developing "connected applications", using the same framework on both server (JVM) and client (JavaScript, Android, and iOS).
+
+Team tools
+TeamCity is a continuous integration and continuous delivery server developed by JetBrains. It is a server-based web application written in Java. The New York Times reported that TeamCity may have been used by Russian hackers of US governmental and private agencies, in potentially "the biggest breach of United States networks in history". 
+Upsource is a code review and repository browsing tool supporting Git, GitHub, Mercurial, Perforce and/or Subversion repositories from a central location. JetBrains released a new developer collaboration tool, Space, in 2019. It began sunsetting Upsource in 2022, officially ending support for the product in January 2023. In May 2024, a rebranding from Space to SpaceCode is initiated for the platform to focus on Git hosting and code reviews.
+YouTrack is a proprietary, commercial web-based bug tracker, issue tracking system, and project management software developed by JetBrains. As of April 2023, YouTrack has a ticket-based helpdesk solution for customer support and service desk processes.
+Qodana is a code quality analysis tool that uses static code analysis to help with users with code reviews, building quality gates, and the implementation of code quality guidelines. It was publicly launched in July 2023 and can be used with IDEs in JetBrains's ecosystem, has CI/CD pipeline integration, while supporting code analysis in over 60 programming languages.
+
+Others
+Datalore is a web application for data analysis and visualization, which is focused specifically on the machine learning environment in Python. JetBrains Academy is an online platform to learn programming, including such programming languages as Python, Java, and Kotlin. The Academy was introduced by JetBrains in 2019, and reached 200,000 users by July 2020. Certifications were added in November 2021 after community feedback prioritized verifiability of the work done on projects. JetBrains have also developed EduTools plugin for student, this plugin is compatible with IntelliJ IDEA (Ultimate, Community, Educational), Android Studio, CLion, GoLand, PhpStorm, PyCharm (Professional, Community, Educational), WebStorm.
+Jetbrains AI  is a plugin developed by Jetbrains that has been added to every IDE and integrate a AI assistant with AI-powered auto-completion and a chatbot. It comes with multiple AI models integrated such as OpenAI's models and Anthropic's models.
+
+Open source projects
+In 2009, JetBrains open-sourced the core functionality of IntelliJ IDEA by offering the free Community Edition. It is built on the IntelliJ Platform and includes its sources. JetBrains released both under Apache License 2.0. In 2010, Android support became a part of the Community Edition, and two years later Google announced its Android Studio, the IDE for mobile development on Android platform built on the Community Edition of IntelliJ IDEA and an official alternative to Eclipse Android Developer Tool. In June 2015, it was announced that the support of Eclipse ADT would be discontinued making Android Studio the official tool for Android App development.
+
+JetBrains Mono
+In January 2020, JetBrains released a geometric monospaced font called JetBrains Mono, made the default font for their IDEs, under the Apache License 2.0. The font is designed for reading source code by being optimized for reading vertically with support for programming ligatures.
+
+See also
+GitHub Copilot
+Visual Assist
+
+References
+External links
+Official website
+
+A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural network.
+
+In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
+In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.
+
+In biology
+In the context of biology, a neural network is a population of biological neurons chemically connected to each other by synapses. A given neuron can be connected to hundreds of thousands of synapses.
+Each neuron sends and receives electrochemical signals called action potentials to its connected neighbors. A neuron can serve an excitatory role, amplifying and propagating signals it receives, or an inhibitory role, suppressing signals instead.
+Populations of interconnected neurons that are smaller than neural networks are called neural circuits. Very large interconnected networks are called large scale brain networks, and many of these together form brains and nervous systems.
+Signals generated by neural networks in the brain eventually travel through the nervous system and across neuromuscular junctions to muscle cells, where they cause contraction and thereby motion.
+
+In machine learning
+In machine learning, a neural network is an artificial mathematical model used to approximate nonlinear functions. While early artificial neural networks were physical machines, today they are almost always implemented in software.
+Neurons in an artificial neural network are usually arranged into layers, with information passing from the first layer (the input layer) through one or more intermediate layers (the hidden layers) to the final layer (the output layer).
+The "signal" input to each neuron is a number, specifically a linear combination of the outputs of the connected neurons in the previous layer. The signal each neuron outputs is calculated from this number, according to its activation function. The behavior of the network depends on the strengths (or weights) of the connections between neurons. A network is trained by modifying these weights through empirical risk minimization or backpropagation in order to fit some preexisting dataset.
+The term deep neural network refers to neural networks that have more than three layers, typically including at least two hidden layers in addition to the input and output layers.
+Neural networks are used to solve problems in artificial intelligence, and have thereby found applications in many disciplines, including predictive modeling, adaptive control, facial recognition, handwriting recognition, general game playing, and generative AI.
+
+History
+The theoretical base for contemporary neural networks was independently proposed by Alexander Bain in 1873 and William James in 1890. Both posited that human thought emerged from interactions among large numbers of neurons inside the brain. In 1949, Donald Hebb described Hebbian learning, the idea that neural networks can change and learn over time by strengthening a synapse every time a signal travels along it.
+Artificial neural networks were originally used to model biological neural networks starting in the 1930s under the approach of connectionism. However, starting with the invention of the perceptron, a simple artificial neural network, by Warren McCulloch and Walter Pitts in 1943, followed by the implementation of one in hardware by Frank Rosenblatt in 1957,
+artificial neural networks became increasingly used for machine learning applications instead, and increasingly different from their biological counterparts.
+
+See also
+Emergence
+Biological cybernetics
+Biologically-inspired computing
+
+
+== References ==
+
+Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by researchers at Google. It learns to represent text as a sequence of vectors using self-supervised learning. It uses the encoder-only transformer architecture. BERT dramatically improved the state-of-the-art for large language models. As of 2020, BERT is a ubiquitous baseline in natural language processing (NLP) experiments. 
+BERT is trained by masked token prediction and next sentence prediction. As a result of this training process, BERT learns contextual, latent representations of tokens in their context, similar to ELMo and GPT-2. It found applications for many natural language processing tasks, such as coreference resolution and polysemy resolution. It is an evolutionary step over ELMo, and spawned the study of "BERTology", which attempts to interpret what is learned by BERT.
+BERT was originally implemented in the English language at two model sizes, BERTBASE (110 million parameters) and BERTLARGE (340 million parameters). Both were trained on the Toronto BookCorpus (800M words) and English Wikipedia  (2,500M words). The weights were released on GitHub. On March 11, 2020, 24 smaller models were released, the smallest being BERTTINY with just 4 million parameters.
+
+Architecture
+BERT is an "encoder-only" transformer architecture. At a high level, BERT consists of 4 modules: 
+
+Tokenizer: This module converts a piece of English text into a sequence of integers ("tokens").
+Embedding: This module converts the sequence of tokens into an array of real-valued vectors representing the tokens. It represents the conversion of discrete token types into a lower-dimensional Euclidean space.
+Encoder: a stack of Transformer blocks with self-attention, but without causal masking.
+Task head: This module converts the final representation vectors into one-hot encoded tokens again by producing a predicted probability distribution over the token types. It can be viewed as a simple decoder, decoding the latent representation into token types, or as an "un-embedding layer".
+The task head is necessary for pre-training, but it is often unnecessary for so-called "downstream tasks," such as question answering or sentiment classification. Instead, one removes the task head and replaces it with a newly initialized module suited for the task, and finetune the new module. The latent vector representation of the model is directly fed into this new module, allowing for sample-efficient transfer learning.
+
+Embedding
+This section describes the embedding used by BERTBASE. The other one, BERTLARGE, is similar, just larger.
+The tokenizer of BERT is WordPiece, which is a sub-word strategy like byte pair encoding. Its vocabulary size is 30,000, and any token not appearing in its vocabulary is replaced by [UNK] ("unknown"). 
+
+The first layer is the embedding layer, which contains three components: token type embeddings, position embeddings, and segment type embeddings. 
+
+Token type: The token type is a standard embedding layer, translating a one-hot vector into a dense vector based on its token type.
+Position: The position embeddings are based on a token's position in the sequence. BERT uses absolute position embeddings, where each position in sequence is mapped to a real-valued vector. Each dimension of the vector consists of a sinusoidal function that takes the position in the sequence as input.
+Segment type: Using a vocabulary of just 0 or 1, this embedding layer produces a dense vector based on whether the token belongs to the first or second text segment in that input. In other words, type-1 tokens are all tokens that appear after the [SEP] special token. All prior tokens are type-0.
+The three embedding vectors are added together representing the initial token representation as a function of these three pieces of information. After embedding, the vector representation is normalized using a LayerNorm operation, outputting a 768-dimensional vector for each input token. After this, the representation vectors are passed forward through 12 Transformer encoder blocks, and are decoded back to 30,000-dimensional vocabulary space using a basic affine transformation layer.
+
+Architectural family
+The encoder stack of BERT has 2 free parameters: 
+  
+    
+      
+        L
+      
+    
+    {\displaystyle L}
+  
+, the number of layers, and 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+, the hidden size. There are always 
+  
+    
+      
+        H
+        
+          /
+        
+        64
+      
+    
+    {\displaystyle H/64}
+  
+ self-attention heads, and the feed-forward/filter size is always 
+  
+    
+      
+        4
+        H
+      
+    
+    {\displaystyle 4H}
+  
+. By varying these two numbers, one obtains an entire family of BERT models.
+For BERT
+
+the feed-forward size and filter size are synonymous. Both of them denote the number of dimensions in the middle layer of the feed-forward network.
+the hidden size and embedding size are synonymous. Both of them denote the number of real numbers used to represent a token.
+The notation for encoder stack is written as L/H. For example, BERTBASE is written as 12L/768H, BERTLARGE as 24L/1024H, and BERTTINY as 2L/128H.
+
+Training
+Pre-training
+BERT was pre-trained simultaneously on two tasks.
+
+Masked language modeling
+In masked language modeling, 15% of tokens would be randomly selected for masked-prediction task, and the training objective was to predict the masked token given its context. In more detail, the selected token is 
+
+replaced with a [MASK] token with probability 80%,
+replaced with a random word token with probability 10%,
+not replaced with probability 10%.
+The reason not all selected tokens are masked is to avoid the dataset shift problem. The dataset shift problem arises when the distribution of inputs seen during training differs significantly from the distribution encountered during inference. A trained BERT model might be applied to word representation (like Word2Vec), where it would be run over sentences not containing any [MASK] tokens. It is later found that more diverse training objectives are generally better.
+As an illustrative example, consider the sentence "my dog is cute". It would first be divided into tokens like "my1 dog2 is3 cute4". Then a random token in the sentence would be picked. Let it be the 4th one "cute4". Next, there would be three possibilities:
+
+with probability 80%, the chosen token is masked, resulting in "my1 dog2 is3 [MASK]4";
+with probability 10%, the chosen token is replaced by a uniformly sampled random token, such as "happy", resulting in "my1 dog2 is3 happy4";
+with probability 10%, nothing is done, resulting in "my1 dog2 is3 cute4".
+After processing the input text, the model's 4th output vector is passed to its decoder layer, which outputs a probability distribution over its 30,000-dimensional vocabulary space.
+
+Next sentence prediction
+Given two spans of text, the model predicts if these two spans appeared sequentially in the training corpus, outputting either [IsNext] or [NotNext]. The first span starts with a special token [CLS] (for "classify"). The two spans are separated by a special token [SEP] (for "separate"). After processing the two spans, the 1-st output vector (the vector coding for [CLS]) is passed to a separate neural network for the binary classification into [IsNext] and [NotNext].
+
+For example, given "[CLS] my dog is cute [SEP] he likes playing" the model should output token [IsNext].
+Given "[CLS] my dog is cute [SEP] how do magnets work" the model should output token [NotNext].
+
+Fine-tuning
+BERT is meant as a general pretrained model for various applications in natural language processing. That is, after pre-training, BERT can be fine-tuned with fewer resources on smaller datasets to optimize its performance on specific tasks such as natural language inference and text classification, and sequence-to-sequence-based language generation tasks such as question answering and conversational response generation.
+The original BERT paper published results demonstrating that a small amount of finetuning (for BERTLARGE, 1 hour on 1 Cloud TPU) allowed it to achieved state-of-the-art performance on a number of natural language understanding tasks:
+
+GLUE (General Language Understanding Evaluation) task set (consisting of 9 tasks);
+SQuAD (Stanford Question Answering Dataset) v1.1 and v2.0;
+SWAG (Situations With Adversarial Generations).
+In the original paper, all parameters of BERT are finetuned, and recommended that, for downstream applications that are text classifications, the output token at the [CLS] input token is fed into a linear-softmax layer to produce the label outputs.
+The original code base defined the final linear layer as a "pooler layer", in analogy with global pooling in computer vision, even though it simply discards all output tokens except the one corresponding to  [CLS] .
+
+Cost
+BERT was trained on the BookCorpus (800M words) and a filtered version of English Wikipedia (2,500M words) without lists, tables, and headers.
+Training BERTBASE  on 4 cloud TPU (16 TPU chips total) took 4 days, at an estimated cost of 500 USD. Training BERTLARGE on 16 cloud TPU (64 TPU chips total) took 4 days.
+
+Interpretation
+Language models like ELMo, GPT-2, and BERT, spawned the study of "BERTology", which attempts to interpret what is learned by these models. Their performance on these natural language understanding tasks are not yet well understood. Several research publications in 2018 and 2019 focused on investigating the relationship behind BERT's output as a result of carefully chosen input sequences, analysis of internal vector representations through probing classifiers, and the relationships represented by attention weights.
+The high performance of the BERT model could also be attributed to the fact that it is bidirectionally trained. This means that BERT, based on the Transformer model architecture, applies its self-attention mechanism to learn information from a text from the left and right side during training, and consequently gains a deep understanding of the context. For example, the word fine can have two different meanings depending on the context (I feel fine today, She has fine blond hair). BERT considers the words surrounding the target word fine from the left and right side.
+However it comes at a cost: due to encoder-only architecture lacking a decoder, BERT can't be prompted and can't generate text, while bidirectional models in general do not work effectively without the right side, thus being difficult to prompt. As an illustrative example, if one wishes to use BERT to continue a sentence fragment "Today, I went to", then naively one would mask out all the tokens as "Today, I went to  [MASK]  [MASK]  [MASK] ...  [MASK] ." where the number of  [MASK]  is the length of the sentence one wishes to extend to. However, this constitutes a dataset shift, as during training, BERT has never seen sentences with that many tokens masked out. Consequently, its performance degrades. More sophisticated techniques allow text generation, but at a high computational cost.
+
+History
+BERT was originally published by Google researchers Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. The design has its origins from pre-training contextual representations, including semi-supervised sequence learning, generative pre-training, ELMo, and ULMFit. Unlike previous models, BERT is a deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus. Context-free models such as word2vec or GloVe generate a single word embedding representation for each word in the vocabulary, whereas BERT takes into account the context for each occurrence of a given word. For instance, whereas the vector for "running" will have the same word2vec vector representation for both of its occurrences in the sentences "He is running a company" and "He is running a marathon", BERT will provide a contextualized embedding that will be different according to the sentence.
+On October 25, 2019, Google announced that they had started applying BERT models for English language search queries within the US. On December 9, 2019, it was reported that BERT had been adopted by Google Search for over 70 languages. In October 2020, almost every single English-based query was processed by a BERT model.
+
+Variants
+The BERT models were influential and inspired many variants.
+RoBERTa (2019) was an engineering improvement. It preserves BERT's architecture (slightly larger, at 355M parameters), but improves its training, changing key hyperparameters, removing the next-sentence prediction task, and using much larger mini-batch sizes. 
+DistilBERT (2019) distills BERTBASE to a model with just 60% of its parameters (66M), while preserving 95% of its benchmark scores. Similarly, TinyBERT (2019) is a distilled model with just 28% of its parameters.
+ALBERT (2019) used shared-parameter across layers, and experimented with independently varying the hidden size and the word-embedding layer's output size as two hyperparameters. They also replaced the next sentence prediction task with the sentence-order prediction (SOP) task, where the model must distinguish the correct order of two consecutive text segments from their reversed order. 
+ELECTRA (2020) applied the idea of generative adversarial networks to the MLM task. Instead of masking out tokens, a small language model generates random plausible substitutions, and a larger network identify these replaced tokens. The small model aims to fool the large model.
+DeBERTa (2020) is a significant architectural variant, with disentangled attention. Its key idea is to treat the positional and token encodings separately throughout the attention mechanism. Instead of combining the positional encoding (
+  
+    
+      
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+      
+    
+    {\displaystyle x_{position}}
+  
+) and token encoding (
+  
+    
+      
+        
+          x
+          
+            token
+          
+        
+      
+    
+    {\displaystyle x_{\text{token}}}
+  
+) into a single input vector (
+  
+    
+      
+        
+          x
+          
+            i
+            n
+            p
+            u
+            t
+          
+        
+        =
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+        +
+        
+          x
+          
+            t
+            o
+            k
+            e
+            n
+          
+        
+      
+    
+    {\displaystyle x_{input}=x_{position}+x_{token}}
+  
+), DeBERTa keeps them separate as a tuple: (
+  
+    
+      
+        (
+        
+          x
+          
+            p
+            o
+            s
+            i
+            t
+            i
+            o
+            n
+          
+        
+        ,
+        
+          x
+          
+            t
+            o
+            k
+            e
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle (x_{position},x_{token})}
+  
+). Then, at each self-attention layer, DeBERTa computes three distinct attention matrices, rather than the single attention matrix used in BERT:
+
+The three attention matrices are added together element-wise, then passed through a softmax layer and multiplied by a projection matrix.
+Absolute position encoding is included in the final self-attention layer as additional input.
+
+Notes
+References
+Further reading
+Rogers, Anna; Kovaleva, Olga; Rumshisky, Anna (2020). "A Primer in BERTology: What we know about how BERT works". arXiv:2002.12327 [cs.CL].
+
+External links
+Official GitHub repository
+
+Chess is an abstract strategy board game for two players which involves no hidden information and no elements of chance. It is played on a square game board called a chessboard containing 64 squares arranged in an 8×8 grid. The players, referred to as "White" and "Black", each control sixteen pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns; each type of piece has a different pattern of movement. An enemy piece may be "captured" (removed from the board) by moving one's own piece onto the square it occupies; the object of the game is to "checkmate" (threaten with inescapable capture) the enemy king. There are also several ways a game can end in a draw.
+The recorded history of chess goes back at least to the emergence of chaturanga—also thought to be an ancestor to similar games like xiangqi and shogi—in seventh-century India. After its introduction in Persia, it spread to the Arab world and then to Europe. The modern rules of chess emerged in Europe at the end of the 15th century, with standardization and universal acceptance by the end of the 19th century. Today, chess is one of the world's most popular games, with millions of players worldwide. 
+Organized chess arose in the 19th century. Chess competition today is governed internationally by FIDE (Fédération Internationale des Échecs; the International Chess Federation). The first universally recognized World Chess Champion, Wilhelm Steinitz, claimed his title in 1886; Gukesh Dommaraju is the current World Champion, having won the title in 2024.
+A huge body of chess theory has developed since the game's inception. Aspects of art are found in chess composition, and chess in its turn influenced Western culture and the arts, and has connections with other fields such as mathematics, computer science, and psychology. One of the goals of early computer scientists was to create a chess-playing machine. In 1997, Deep Blue became the first computer to beat a reigning World Champion in a match when it defeated Garry Kasparov. Today's chess engines are significantly stronger than the best human players and have deeply influenced the development of chess theory; however, chess is not a solved game.
+
+Rules
+The rules of chess are published by FIDE (Fédération Internationale des Échecs; "International Chess Federation"), chess's world governing body, in its Handbook. Rules published by national governing bodies, or by unaffiliated chess organizations, commercial publishers, etc., may differ in some details. FIDE's rules were most recently revised in 2023.
+
+Setup
+Chess sets come in a wide variety of styles. The Staunton pattern is the most common, and is usually required for competition. Chess sets come with pieces in two colors, referred to as white and black, regardless of their actual color; the players controlling the color sets are referred to as White and Black, respectively. Each set comes with at least the following 16 pieces in both colors: one king, one queen, two rooks, two bishops, two knights, and eight pawns.
+The game is played on a square board of eight rows (called ranks) and eight columns (called files). Although it does not affect gameplay, by convention the 64 squares alternate in color and are referred to as light and dark squares. Common colors for wooden chessboards are light and dark brown, while vinyl chessboards are commonly buff and green.
+
+To start the game, White's pieces are placed on the first rank in the following order, from left to right: rook, knight, bishop, queen, king, bishop, knight, rook. Pawns are placed on each square of the second rank. Black's position mirrors White's, with equivalent pieces on every file. The board is oriented so that the right-hand corner nearest each player is a light square; as a result the white queen always starts on a light square, while the black queen starts on a dark square. This may be remembered by the phrases "white on the right" and "queen on her color".
+In formal competition, the piece colors for every matchup are allocated to players by the organizers. In informal games, colors may be decided either by mutual agreement, or randomly, for example by a coin toss, or by one player concealing a white pawn in one hand and a black pawn in the other and having the opponent choose.
+
+Movement
+White moves first, after which players alternate turns. One piece is moved per turn (except when castling, during which two pieces are moved). In the diagrams, dots mark the squares to which each type of piece can move if unoccupied by friendly pieces and there are no intervening piece(s) of either color (except the knight, which leaps over any intervening pieces). With the sole exception of en passant, a piece captures an enemy piece by moving to the square it occupies, removing it from play and taking its place. The pawn is the only piece that does not capture the way it moves, and it is the only piece that moves and captures in only one direction (forwards from the player's perspective). A piece is said to control empty squares on which it could capture, attack squares with enemy pieces it could capture, and defend squares with pieces of the same color on which it could recapture. Moving is compulsory; a player may not skip a turn, even when having to move is detrimental.
+
+The king moves one square in any direction. There is also a special move called castling which moves the king and a rook. The king is the most valuable piece—it is illegal to play any move that puts one's king under attack by an opponent piece. A move that attacks the king must be parried immediately; if this cannot be done, the game is lost. (See § Check and checkmate.)
+A rook can move any number of squares along a rank or file. A rook is involved in the king's castling move.
+A bishop can move any number of squares diagonally.
+A queen combines the power of a rook and bishop and can move any number of squares along a rank, file, or diagonal.
+A knight moves to any of the closest squares that are not on the same rank, file, or diagonal. (Thus the move forms an "L"-shape: two squares vertically and one square horizontally, or two squares horizontally and one square vertically.) The knight is the only piece that can leap over other pieces.
+A pawn can move forward to the unoccupied square immediately in front of it on the same file, or on its first move it can optionally advance two squares along the same file, provided both squares are unoccupied (diagram dots). A pawn can capture an opponent's piece on a square diagonally in front of it by moving to that square (diagram crosses). It cannot capture a piece while advancing along the same file, nor can it move to either square diagonally in front without capturing. Pawns have two special moves: the en passant capture and promotion.
+
+Check and checkmate
+When a king is under immediate attack, it is in check. A move in response to a check is legal only if it results in a position in which the king is no longer in check. There are three ways to counter a check:
+
+Capture the checking piece.
+Interpose a piece between the checking piece and the king (possible only if the attacking piece is a queen, rook, or bishop and there is a square between it and the king).
+Move the king to a square where it is not under attack.
+The object of the game is to checkmate the opponent; this occurs when the opponent's king is in check, and there is no legal way to get it out of check. In casual games, it is common to announce "check" when putting the opponent's king in check, but this is not required by the rules of chess and is usually not done in tournaments.
+
+Castling
+Kings can castle once per game. Castling consists of moving the king two squares toward either rook of the same color, and then placing the rook on the square that the king crossed.
+Castling is possible only if the following conditions are met:
+
+Neither the king nor the rook has previously moved during the game.
+There are no pieces between the king and the rook.
+The king is not in check and does not pass through or finish on a square controlled by an enemy piece.
+Castling is still permitted if the rook is under attack, or if the rook crosses an attacked square.
+
+Special pawn moves
+Pawns have two special moves:
+
+En passant: when a pawn makes a two-square advance to the same rank as an opponent's pawn on an adjacent file, that pawn can capture it en passant ("in passing"), moving to one square behind the captured pawn. A pawn can only be captured en passant on the turn after it makes a two-square advance. In the animated diagram, the black pawn advances two squares from g7 to g5, and the white pawn on f5 takes it en passant, landing on g6.
+Promotion: when a pawn advances to its last rank, it is promoted and replaced with the player's choice of a queen, rook, bishop, or knight. Usually, pawns are promoted to queens; choosing another piece is called underpromotion. In the animated diagram, the c7-pawn is advanced to c8 and promoted to a queen. If the required piece is not available (e.g. a second queen), an inverted rook is sometimes used as a substitute, but this is not recognized in FIDE-sanctioned games.
+
+End of the game
+Win
+A game can be won in the following ways:
+
+Checkmate: The opposing king is in check and the opponent has no legal move. (See § Check and checkmate.)
+Resignation: A player may resign, conceding the game to the opponent. If, however, the opponent has no way of checkmating the resigned player, this is a draw under FIDE Laws. Most tournament players consider it good etiquette to resign in a hopeless position.
+Win on time: In games with a time control, a player wins if the opponent runs out of time, even if the opponent has a superior position, as long as the player has a theoretical possibility to checkmate the opponent were the game to continue.
+Forfeit: A player who cheats, violates the rules, or violates the rules of conduct specified for the particular tournament can be forfeited. Occasionally, both players are forfeited.
+
+Draw
+There are several ways a game can end in a draw:
+
+Stalemate: If the player to move has no legal move, but is not in check, the position is a stalemate, and the game is drawn.
+Dead position: If neither player is able to checkmate the other by any legal sequence of moves, the game is drawn. For example, if only the kings are on the board, all other pieces having been captured, checkmate is impossible, and the game is drawn by this rule. On the other hand, if both players still have a knight, there is a highly unlikely yet theoretical possibility of checkmate, so this rule does not apply. The dead position rule supersedes an older rule which referred to "insufficient material", extending it to include other positions where checkmate is impossible, such as blocked pawn endings where the pawns cannot be attacked.
+Draw by agreement: In tournament chess, draws are most commonly reached by mutual agreement between the players. The correct procedure is to verbally offer the draw, make a move, then start the opponent's clock. Traditionally, players have been allowed to agree to a draw at any point in the game, occasionally even without playing a move. More recently efforts have been made to discourage early draws, for example by forbidding draw offers before a certain point.
+Threefold repetition: This most commonly occurs when neither side is able to avoid repeating moves without incurring a disadvantage. The three occurrences of the position need not occur on consecutive moves for a claim to be valid. The addition of the fivefold repetition rule in 2014 requires the arbiter to intervene immediately and declare the game a draw after five occurrences of the same position, consecutive or otherwise, without requiring a claim by either player. FIDE rules make no mention of perpetual check; this is merely a specific type of draw by threefold repetition.
+Fifty-move rule: If during the previous 50 moves no pawn has been moved and no capture has been made, either player can claim a draw. The addition of the seventy-five-move rule in 2014 requires the arbiter to intervene and immediately declare the game drawn after 75 moves without a pawn move or capture, without requiring a claim by either player. There are several known endgames where it is possible to force a mate but it requires more than 50 moves before a pawn move or capture is made; examples include some endgames with two knights against a pawn and some pawnless endgames such as queen against two bishops. Historically, FIDE has sometimes revised the fifty-move rule to make exceptions for these endgames, but these have since been repealed. Some correspondence chess organizations do not enforce the fifty-move rule.
+Draw on time: In games with a time control, the game is drawn if a player is out of time and no sequence of legal moves would allow the opponent to checkmate the player.
+Draw by resignation: Under FIDE Laws, a game is drawn if a player resigns and no sequence of legal moves would allow the opponent to checkmate that player.
+
+Time control
+In competition, chess games are played with a time control. Methods and bounds vary, but time controls are generally divided into categories based on the amount of time given to each player (FIDE adds sixty turns worth of increment to the starting time when measuring), which range from classical time controls, which allot an hour or more to each player and which can take upwards of seven hours (even longer if adjournments are permitted), to bullet chess, in which players receive less than three minutes each. Between these are rapid chess (ten to sixty minutes per player), popular in amateur tournaments, and blitz chess (three to ten minutes), popular online. Non-classical chess is sometimes referred to as fast chess.
+Time is controlled using a chess clock with two displays, one for each player's remaining time. Analog chess clocks have been largely replaced by digital clocks, which allow for time controls with increments.
+There are some aspects unique to online chess. A premove allows a player to submit a move on the opponent's turn, which gets played automatically if possible using little to no time. Premoves, alongside the relative ease of digital inputs, make faster time controls feasible online.
+Time controls are also enforced in correspondence chess competitions. A typical time control is 50 days for every 10 moves. Time is usually alloted per move in online correspondence chess.
+
+Notation
+Historically, many different notation systems have been used to record chess moves; the standard system today is short-form algebraic notation. In this system, files are labeled a through h and ranks are labeled 1 through 8. Squares are identified by the file and rank they occur on; g3 is the square on the g file and the third rank. In English, the piece notations are: K (king), Q (queen), R (rook), B (bishop), and N (knight; N is used to avoid confusion with king). Different initials are used in other languages. Moves are recorded as follows:
+
+notation of piece moved – destination square
+
+For example, Qg5 means "queen moves to g5". No letter initial is used for pawns, so e4 means "pawn moves to e4". When multiple moves could be rendered the same way, the file or rank from which the piece moved is added to resolve ambiguity (e.g. Ngf3 means "knight from the g-file moves to the square f3"; R1e2 means "rook on the first rank moves to e2"). If a move may be disambiguated by rank or file, it is done by file, and in the rare case that both are needed, squares are listed normally (e.g Qh4xe1).
+If the move is a capture, "x" is usually inserted before the destination square, thus Bxf3 means "bishop captures on f3". When a pawn makes a capture, the file from which the pawn departed is often listed even when no disambiguation is necessary; for example, exd5.
+If a pawn moves to its last rank, achieving promotion, the piece chosen is indicated after the move (for example, e1=Q or e1Q). Castling is indicated by the special notations 0-0 for kingside castling and 0-0-0 for queenside castling. A move that places the opponent's king in check usually has the notation "+" suffixed. Checkmate can be indicated by suffixing "#". At the end of the game, "1–0" means White won, "0–1" means Black won, and "½–½" indicates a draw. Chess moves can be annotated with punctuation marks and other symbols. For example: "!" indicates a good move; "!!" a excellent move; "?" a mistake; "??" a blunder; "!?" an interesting move that may not be best; or "?!" a dubious move not easily refuted.
+
+Moves are written as white/black pairs, preceded by the move number and a period. Individual white moves are also recorded this way, while black moves are rendered with an ellipsis after the move number. For example, one variation of a simple trap known as the Scholar's mate (see animated diagram) can be recorded:
+
+ 1. e4 e5 2. Qh5?! Nc6 3. Bc4 Nf6?? 4. Qxf7#
+The move 3... Nf6?? is recorded as a blunder, as it allows 4. Qxf7# checkmate.
+Games or sequences may be recorded in Portable Game Notation (PGN), a text-based file format with support for annotative symbols, commentary, and background information, such as player names. It is based on short form English algebraic notation incorporating markup language. PGN transcripts, stored digitally as PGN (.pgn) files can be processed by most chess software and are easily readable by humans.
+Variants of algebraic notation include long algebraic, in which both the departure and destination square are indicated; abbreviated algebraic, in which capture signs, check signs, and ranks of pawn captures may be omitted; and figurine algebraic notation, used in chess books and magazines, which uses graphic symbols instead of initials to indicate pieces for readability regardless of language.
+Until about 1980, the majority of English language chess publications used descriptive notation, in which files are identified by the initial letter of the piece that occupies the first rank at the beginning of the game. In descriptive notation, the common opening move 1.e4 is rendered as "1.P-K4" ("pawn to king four"). Another system is ICCF numeric notation, recognized by the International Correspondence Chess Federation though its use is in decline.
+In tournament games, players are normally required to keep a score (written record of the game). This is a requirement in all FIDE-sanctioned games played at classical time controls. For this purpose, only algebraic notation is recognized by FIDE, though variants such as long algebraic are acceptable; game scores recorded in a different notation system may not be used as evidence in the event of a dispute.
+
+Gameplay
+Theory
+Chess has an extensive literature. In 1913, the chess historian H.J.R. Murray estimated the total number of books, magazines, and chess columns in newspapers to be about 5,000. B.H. Wood estimated the number, as of 1949, to be about 20,000. David Hooper and Kenneth Whyld write that, "Since then there has been a steady increase year by year of the number of new chess publications. No one knows how many have been printed." Significant public chess libraries include the John G. White Chess and Checkers Collection at Cleveland Public Library, with over 32,000 chess books and over 6,000 bound volumes of chess periodicals; and the Chess & Draughts collection at the National Library of the Netherlands, with about 30,000 books.
+
+Strategy
+Chess strategy is concerned with the evaluation of chess positions and with setting up goals and long-term plans for future play. During the evaluation, players must take into account numerous factors such as the value of the pieces on the board, control of the center and centralization, the pawn structure, king safety, and the control of key squares or groups of squares (for example, diagonals, open files, and dark or light squares).
+The most basic step in evaluating a position is to count the total value of pieces of both sides. The point values used for this purpose are based on experience; usually, pawns are considered worth one point, knights and bishops about three points each, rooks about five points (the value difference between a rook and a bishop or knight being known as the exchange), and queens about nine points. The king is more valuable than all of the other pieces combined, since its checkmate loses the game, but is still capable as a fighting piece; in the endgame, the king is generally more powerful than a bishop or knight but less powerful than a rook. These basic values are then modified by other factors like position of the piece (e.g. advanced pawns are usually more valuable than those on their initial squares), coordination between pieces (e.g. a pair of bishops usually coordinate better than a bishop and a knight), or the type of position (e.g. knights are generally better in closed positions with many pawns while bishops are more powerful in open positions).
+Another important factor in the evaluation of chess positions is pawn structure (sometimes known as the pawn skeleton): the configuration of pawns on the chessboard. Since pawns are the least mobile of the pieces, pawn structure is relatively static and largely determines the strategic nature of the position. Weaknesses in pawn structure include isolated, doubled, or backward pawns and holes; once created, they are often permanent. Care must therefore be taken to avoid these weaknesses unless they are compensated by another valuable asset (for example, by the possibility of developing an attack).
+
+Tactics
+In chess, tactics generally refer to short-term maneuvers – so short-term that they can be calculated in advance by a human player. The possible depth of calculation depends on the player's ability. In quiet positions with many possibilities on both sides, a deep calculation is more difficult and may not be practical, while in positions with a limited number of forced variations, strong players can calculate long sequences of moves.
+Theoreticians describe many elementary tactical methods and typical maneuvers, for example: pins, forks, skewers, batteries, discovered attacks (especially discovered checks), zwischenzugs, deflections, decoys, sacrifices, underminings, overloadings, and interferences. Simple one-move or two-move tactical actions – threats, exchanges of material, and double attacks – can be combined into longer sequences of tactical maneuvers that are often forced from the point of view of one or both players. A forced variation that involves a sacrifice and usually results in a tangible gain is called a combination. Brilliant combinations – such as those in the Immortal Game – are considered beautiful and are admired by chess lovers. 
+A common type of chess exercise, aimed at developing players' tactical skills, is a position where a combination is available and the challenge is to find it. Such positions are usually taken from actual games or from analysis of actual games. Solutions usually result in checkmate, decisive advantage, or successful defense. Tactical exercises are commonly found in instructional books, chess magazines, newspaper chess columns, and internet chess sites.
+
+Phases
+Chess theory divides chess games into three phases with different sets of strategies: the opening, the middlegame, and lastly the endgame. There is no universally accepted way to delineate the three phases of the game; the middlegame is typically considered to have begun after 10–20 moves, and the endgame when only a few pieces remain.
+
+Opening
+Competitive players typically learn, memorize, and play well-documented sequences of opening moves. The most common starting moves for White are 1.e4 and 1.d4, which usually lead to substantially different types of positions, and Black has multiple viable responses to both.
+Sequences of opening moves are referred to as openings and are catalogued in reference works, such as the Encyclopaedia of Chess Openings. There are thousands of openings, though only a small fraction of them are commonly played; variations of openings may also be given names. Openings vary widely in character from quiet positional play (for example, the Réti Opening) to sharp aggressive play (like the Latvian Gambit). In some opening lines, the exact sequence considered best for both sides has been worked out to more than 30 moves. 
+Amateur players generally have little knowledge of opening theory, and may use heuristic strategies, such as playing conservatively to minimize the possibility of losing early to a prepared trap, though not all do so. Rigorous study is necessary for professional players, who often employ assistants called seconds to aid them in preparation. While top players typically play reputed variations of openings, they may also study dubious variations in the hopes that their opponent will overlook them in their own studies. The role of memorization in openings is sometimes controversial for delaying the onset of deliberation and creativity in chess games.
+The fundamental strategic aims of most openings are similar:
+
+Development: moving pieces (particularly bishops and knights) forward to squares on which they are useful (defending, attacking, and controlling important squares) and/or have the potential to take part in future plans and ideas.
+Control of the center: control of the central squares allows pieces to be moved to any part of the board relatively easily, and can inhibit the mobility of the opponent's pieces.
+King safety: typically secured by castling; incorrectly timed castling can be wasteful or even harmful, however.
+Pawn structure: players strive to avoid the creation of pawn weaknesses such as isolated, doubled, or backward pawns – and to force such weaknesses in the opponent's position.
+Most players and theoreticians consider that White, by virtue of the initiative granted from moving first, begins the game with a small advantage. Black usually strives to neutralize White's advantage and achieve equality, or to develop dynamic counterplay in an unbalanced position.
+
+Middlegame
+The middlegame is the part of the game that starts after the opening. Because the opening theory has ended, players have to form plans based on the features of the position, and at the same time take into account the tactical possibilities of the position. The middlegame is the phase in which most combinations occur. Combinations are a series of tactical moves executed to achieve some gain. Middlegame combinations are often connected with an attack against the opponent's king. Some typical patterns have their own names; for example, the Boden's Mate or the Lasker–Bauer combination.
+Specific plans or strategic themes will often arise from particular groups of openings that result in a specific type of pawn structure. An example is the minority attack, which is the attack of queenside pawns against an opponent who has more pawns on the queenside. The study of openings is therefore connected to the preparation of plans that are typical of the resulting middlegames.
+Another important strategic question in the middlegame is whether and how to reduce material and transition into an endgame (i.e. simplify). Minor material advantages can generally be transformed into victory only in an endgame, and therefore the stronger side must choose an appropriate way to achieve an ending. Not every reduction of material is good for this purpose; for example, if one side keeps a light-squared bishop and the opponent has a dark-squared one, the transformation into a bishops and pawns ending is usually advantageous for the weaker side only, because an endgame with bishops on opposite colors is likely to be a draw, even with an advantage of a pawn, or sometimes even with a two-pawn advantage.
+
+Endgame
+The endgame (also end game or ending) is the stage of the game when there are few pieces left on the board. There are three main strategic differences between earlier stages of the game and the endgame:
+
+Pawns become more important. Endgames often revolve around endeavors to promote a pawn by advancing it to the furthest rank.
+The king, which requires safeguarding from attack during the middlegame, emerges as a strong piece in the endgame. It is often used to protect its own pawns, attack enemy pawns, and hinder moves of the opponent's king.
+Zugzwang, a situation in which the player who is to move is forced to incur a disadvantage, is often a factor in endgames but rarely in other stages of the game. In the example diagram, either side having the move is in zugzwang: Black to move must play 1...Kb7 allowing White to promote the pawn after 2.Kd7; White to move must permit a draw, either by 1.Kc6 stalemate or by losing the pawn after any other legal move.
+Endgames can be classified according to the type of pieces remaining on the board. Basic checkmates are positions in which one side has only a king and the other side has one or two pieces and can checkmate the opposing king, with the pieces working together with their king. For example, king and pawn endgames involve only kings and pawns on one or both sides, and the task of the stronger side is to promote one of the pawns. Other more complicated endings are classified according to pieces on the board other than kings, such as "rook and pawn versus rook" endgames.
+
+Problems and studies
+Chess problems (also called chess compositions) are composed positions, usually created for artistic effect rather than practical application. The creator is known as a chess composer. 
+There are many types of chess problems, the most common being directmates, in which White is required to move and checkmate Black within a specified number of moves, usually two or three, against any defense. 
+These are commonly referred to as "two-movers", "three-movers", or "more-movers". "Many-movers" (also known as "long-range problems") of over 100 moves have been composed, the current record standing at over 200; these usually require repetitions of the same manoeuvre in order to produce a repeated zugzwang and force detrimental pawn advances.
+Directmates usually consist of positions unlikely to occur in an actual game, and are intended to illustrate a particular theme, usually requiring a surprising or counterintuitive key move. Themes associated with chess problems occasionally appear in actual games, when they are referred to as "problem-like" moves.
+Other common types of problems include:
+
+Helpmates, in which Black moves first and cooperates with White to get Black's king checkmated
+Selfmates, in which White moves first and forces Black to checkmate White
+Retrograde analysis problems, in which the solver is required to work out what has previously occurred in the game, for example to prove that castling is illegal in the current position
+The above type of problems are usually considered orthodox, in the sense that the standard rules of chess are observed.
+Fairy chess problems, also called heterodox problems, involve altered rules, such as the use of unconventional pieces or boards, or stipulations that contradict the standard rules of chess such as reflexmates or seriesmovers.
+Studies are usually considered distinct from problems, although there is some overlap. In a study, the stipulation is that White to play must win or draw, without specifying any particular number of moves. The majority of studies are endgame positions, with varying degrees of realism or practical application.
+Tournaments for composition and solving of chess problems and studies are organized by the World Federation for Chess Composition (WFCC), which works cooperatively with but independent of FIDE. The WFCC awards titles for composing and solving chess problems.
+
+Chess in public spaces
+Chess is often played in public spaces such as parks and town squares. Although the nature of these games is often casual, the chess hustling scene has seen growth in urban areas such as New York City.
+
+Organized competition
+Tournaments and matches
+Contemporary chess is an organized sport with structured international and national leagues, tournaments, and congresses. Thousands of chess tournaments, matches, and festivals are held around the world every year catering to players of all levels.
+Tournaments with a small number of players may use the round-robin format, in which every player plays one game against every other player. For a large number of players, the Swiss system may be used, in which each player is paired against an opponent who has the same (or as similar as possible) score in each round. In either case, a player's score is usually calculated as 1 point for each game won and one-half point for each game drawn. Variations such as "football scoring" (3 points for a win, 1 point for a draw) may be used by tournament organizers, but ratings are always calculated on the basis of standard scoring. A player's score may be reported as total score out of games played (e.g. 5½/8), points for versus points against (e.g. 5½–2½), or by number of wins, losses and draws (e.g. +4−1=3).
+The term "match" refers not to an individual game, but to either a series of games between two players, or a team competition in which each player of one team plays one game against a player of the other team.
+
+Governance
+Chess's international governing body is usually known by its French acronym FIDE (pronounced FEE-day) (French: Fédération Internationale des Échecs), or International Chess Federation. FIDE's membership consists of the national chess organizations of over 180 countries; there are also several associate members, including various supra-national organizations, the International Braille Chess Association (IBCA), International Chess Committee of the Deaf (ICCD), and the International Physically Disabled Chess Association (IPCA). FIDE is recognized as a sports governing body by the International Olympic Committee, but chess has never been part of the Olympic Games.
+
+FIDE's most visible activity is organizing the World Chess Championship, a role it assumed in 1948. The current World Champion is Gukesh Dommaraju of India. The reigning Women's World Champion is Ju Wenjun from China.
+Other competitions for individuals include the World Junior Chess Championship, the European Individual Chess Championship, the tournaments for the World Championship qualification cycle, and the various national championships. Invitation-only tournaments regularly attract the world's strongest players. Examples include Spain's Linares event, Monte Carlo's Melody Amber tournament, the Dortmund Sparkassen meeting, Sofia's M-tel Masters, and Wijk aan Zee's Tata Steel tournament.
+Regular team chess events include the Chess Olympiad and the European Team Chess Championship.
+The World Chess Solving Championship and World Correspondence Chess Championship include both team and individual events. These are held independently of FIDE by, respectively, the World Federation for Chess Composition (WFCC), and the International Correspondence Chess Federation (ICCF).
+
+Titles and rankings
+In order to rank players, FIDE, ICCF, and most national chess organizations use the Elo rating system developed by Arpad Elo. An average club player has a rating of about 1500; the highest FIDE rating of all time, 2882, was achieved by Magnus Carlsen on the March 2014 FIDE rating list.
+Players may be awarded lifetime titles by FIDE:
+
+Grandmaster (GM) is the highest title a chess player can attain. For the GM title, a player must have had an Elo rating of 2500 or more at least once and must achieve three results of a prescribed standard (called norms) in tournaments involving other grandmasters, including some from countries other than the applicant's. There are other milestones that can substitute for norms, such as winning the World Junior Championship.
+International Master (IM). The conditions are similar to GM, but less demanding. The minimum rating for the IM title is 2400.
+FIDE Master (FM). The usual way for a player to qualify for the FIDE Master title is by achieving a FIDE rating of 2300 or more.
+Candidate Master (CM). Similar to FM, but with a FIDE rating of at least 2200.
+The above titles are known as "open" titles, obtainable by both men and women. There are also separate women-only titles; Woman Grandmaster (WGM), Woman International Master (WIM), Woman FIDE Master (WFM) and Woman Candidate Master (WCM). These require a performance level approximately 200 rating points below their respective open titles, and their continued existence has sometimes been controversial. Beginning with Nona Gaprindashvili in 1978, a number of women have earned the open GM title: 40 as of July 2023.
+FIDE also awards titles for arbiters and trainers. International titles are also awarded to composers and solvers of chess problems and to correspondence chess players (by the International Correspondence Chess Federation). National chess organizations may also award titles.
+
+History
+Origins
+Texts referring to the origins of chess date from the beginning of the seventh century. Three are written in Pahlavi (Middle Persian) and one, the Harshacharita, is in Sanskrit. One of these texts, the Chatrang-namak, represents one of the earliest written accounts of chess. The narrator Bozorgmehr explains that Chatrang, "Chess" in Pahlavi, was introduced to Persia by 'Dewasarm, a great ruler of India' during the reign of Khosrow I:
+
+Dewasarm has fashioned this chatrang after the likeness of a battle, and in its likeness are two supreme rulers after the likeness of Kings (shah), with the essentials of rooks (rukh) to right and to left, with Counsellor (farzin) in the likeness of a commander of the champions, with the Elephant (pil) in the likeness of the commander of the rearguard, with Horse (asp) in the likeness of the commander of the cavalry, with the Footsoldier (piyadak) in the likeness of so many infantry in the vanguard of the battle.
+
+The oldest known chess manual was in Arabic and dates to about 840, written by al-Adli ar-Rumi (800–870), a renowned Arab chess player, titled Kitab ash-shatranj (The Book of Chess). This is a lost manuscript, but is referenced in later works. Here also, al-Adli attributes the origins of Persian chess to India, along with the eighth-century collection of fables Kalīla wa-Dimna. By the 20th century, a substantial consensus developed regarding chess's origins in northwest India in the early seventh century. More recently, this consensus has been the subject of further scrutiny.
+The early forms of chess in India were known as chaturaṅga (Sanskrit: चतुरङ्ग), literally "four divisions" [of the military] – infantry, cavalry, elephants, and chariotry – represented by pieces that would later evolve into the modern pawn, knight, bishop, and rook, respectively. Chaturanga was played on an 8×8 uncheckered board, called ashtāpada. Thence it spread eastward and westward along the Silk Road. The earliest evidence of chess is found in nearby Sasanian Persia around 600 A.D., where the game came to be known by the name chatrang (Persian: چترنگ). Chatrang was taken up by the Muslim world after the Islamic conquest of Persia (633–51), where it was then named shatranj (Arabic: شطرنج; Persian: شترنج), with the pieces largely retaining their Persian names. In Spanish, "shatranj" was rendered as ajedrez ("al-shatranj"), in Portuguese as xadrez, and in Greek as ζατρίκιον (zatrikion, which comes directly from the Persian chatrang), but in the rest of Europe it was replaced by versions of the Persian shāh ("king"), from which the English words "check" and "chess" descend. The word "checkmate" is derived from the Persian shāh māt ("the king is dead").
+
+Xiangqi is the form of chess best known in China. The eastern migration of chess, into China and Southeast Asia, has even less documentation than its migration west, making it largely conjectured. The word xiàngqí (象棋) was used in China to refer to a game from 569 A.D. at the latest, but it has not been proven that this game was directly related to chess.
+The first reference to Chinese chess appears in a book entitled Xuánguaì Lù (玄怪錄; "Record of the Mysterious and Strange"), dating to about 800. A minority view holds that Western chess arose from xiàngqí or one of its predecessors. Chess historians Jean-Louis Cazaux and Rick Knowlton contend that xiangqi's intrinsic characteristics make it easier to construct an evolutionary path from China to India/Persia than the opposite direction.
+The oldest archaeological chess artifacts – ivory pieces – were excavated in ancient Afrasiab, today's Samarkand, in Uzbekistan, Central Asia, and date to about 760, with some of them possibly being older. Remarkably, almost all findings of the oldest pieces come from along the Silk Road, from the former regions of the Tarim Basin (today's Xinjiang in China), Transoxiana, Sogdiana, Bactria, Gandhara, to Iran on one end and to India through Kashmir on the other.
+
+The game reached Western Europe and Russia via at least three routes, the earliest being in the ninth century. By the year 1000, it had spread throughout both the Muslim Iberia and Latin Europe. A Latin poem called Versus de scachis ("Verses on Chess") dated to the late 10th century, has been preserved at Einsiedeln Abbey in Switzerland.
+
+1200–1700: Origins of the modern game
+The game of chess was then played and known in all European countries. A famous 13th-century Spanish manuscript covering chess, backgammon, and dice is known as the Libro de los juegos, which is the earliest European treatise on chess as well as being the oldest document on European tables games. The rules were fundamentally similar to those of the Arabic shatranj. The differences were mostly in the use of a checkered board instead of a plain monochrome board used by Arabs and the habit of allowing some or all pawns to make an initial double step. In some regions, the queen, which had replaced the wazir, or the king could also make an initial two-square leap under some conditions. 
+
+Around 1200, the rules of shatranj started to be modified in Europe, culminating, several major changes later, in the emergence of modern chess practically as it is known today. A major change was the modern piece movement rules, which began to appear in intellectual circles in Valencia, Spain, around 1475, which established the foundations and brought it very close to current chess. These new rules then were quickly adopted in Italy and Southern France before diffusing into the rest of Europe. Pawns gained the ability to advance two squares on their first move, while bishops and queens acquired their modern movement powers. The queen replaced the earlier vizier chess piece toward the end of the 10th century and by the 15th century had become the most powerful piece; in light of that, modern chess was often referred to at the time as "Queen's Chess" or "Mad Queen Chess". Castling, derived from the "king's leap", usually in combination with a pawn or rook move to bring the king to safety, was introduced. These new rules quickly spread throughout Western Europe.
+Writings about chess theory began to appear in the late 15th century. An anonymous treatise on chess of 1490 with the first part containing some openings and the second 30 endgames is deposited in the library of the University of Göttingen. The book El Libro dels jochs partitis dels schachs en nombre de 100 was written by Francesc Vicent in Segorbe in 1495, but no copy of this work has survived. The Repetición de Amores y Arte de Ajedrez (Repetition of Love and the Art of Playing Chess) by Spanish churchman Luis Ramírez de Lucena was published in Salamanca in 1497. Lucena and later masters like Portuguese Pedro Damiano, Italians Giovanni Leonardo Di Bona, Giulio Cesare Polerio and Gioachino Greco, and Spanish bishop Ruy López de Segura developed elements of opening theory and started to analyze simple endgames.
+
+1700–1873: Romantic era
+In the 18th century, the center of European chess life moved from Southern Europe to mainland France. The two most important French masters were François-André Danican Philidor, a musician by profession, who discovered the importance of pawns for chess strategy, and later Louis-Charles Mahé de La Bourdonnais, who won a famous series of matches against Irish master Alexander McDonnell in 1834. Centers of chess activity in this period were coffee houses in major European cities like Café de la Régence in Paris and Simpson's Divan in London.
+At the same time, the Romantic intellectual movement had had a far-reaching impact on chess, with aesthetics and tactical beauty being held in higher regard than objective soundness and strategic planning. As a result, virtually all games began with the Open Game, and it was considered unsportsmanlike to decline gambits that invited tactical play such as the King's Gambit and the Evans Gambit. This chess philosophy is known as Romantic chess, and its sharp, tactical style of play was predominant until the late 19th century.
+The rules concerning stalemate were finalized in the early 19th century. Also in the 19th century, the convention that White moves first was established (formerly either White or Black could move first). Finally, the rules around castling and en passant captures were standardized – variations in these rules persisted in Italy until the late 19th century. The resulting standard game is sometimes referred to as Western chess or international chess, particularly in Asia where other games of the chess family such as xiangqi are prevalent. Since the 19th century, the only rule changes, such as the establishment of the correct procedure for claiming a draw by repetition, have been technical in nature.
+
+As the 19th century progressed, chess organization developed quickly. Many chess clubs, chess books, and chess journals appeared. There were correspondence matches between cities; for example, the London Chess Club played against the Edinburgh Chess Club in 1824. Chess problems became a regular part of 19th-century newspapers; Bernhard Horwitz, Josef Kling, and Samuel Loyd composed some of the most influential problems. In 1843, von der Lasa published his and Bilguer's Handbuch des Schachspiels (Handbook of Chess), the first comprehensive manual of chess theory.
+The first modern chess tournament was organized by Howard Staunton, a leading English chess player, and was held in London in 1851. It was won by the German Adolf Anderssen, who was hailed as the leading chess master. His brilliant, energetic attacking style was typical for the time. Sparkling games like Anderssen's Immortal Game and Evergreen Game or Morphy's "Opera Game" were regarded as the highest possible summit of the art of chess.
+Deeper insight into the nature of chess came with the American Paul Morphy, an extraordinary chess prodigy. Morphy won against all important competitors (except Staunton, who refused to play), including Anderssen, during his short chess career between 1857 and 1863. Morphy's success stemmed from a combination of brilliant attacks and sound strategy; he intuitively knew how to prepare attacks.
+
+1873–1945: Birth of a sport
+Prague-born Wilhelm Steinitz laid the foundations for a scientific approach to the game, the art of breaking a position down into components and preparing correct plans. In addition to his theoretical achievements, Steinitz founded an important tradition: his triumph over the leading German master Johannes Zukertort in 1886 is regarded as the first official World Chess Championship. This win marked a stylistic transition at the highest levels of chess from an attacking, tactical style predominant in the Romantic era to a more positional, strategic style introduced to the chess world by Steinitz. Steinitz lost his crown in 1894 to a much younger player, the German mathematician Emanuel Lasker, who maintained this title for 27 years, the longest tenure of any world champion.
+After the end of the 19th century, the number of master tournaments and matches held annually quickly grew. The first Olympiad was held in Paris in 1924, and FIDE was founded initially for the purpose of organizing that event. In 1927, the Women's World Chess Championship was established; the first to hold the title was Czech-English master Vera Menchik.
+A prodigy from Cuba, José Raúl Capablanca, known for his skill in endgames, won the World Championship from Lasker in 1921. Capablanca was undefeated in tournament play for eight years, from 1916 to 1924. His successor (1927) was the Russian-French Alexander Alekhine, a strong attacking player who died as the world champion in 1946. Alekhine briefly lost the title to Dutch player Max Euwe in 1935 and regained it two years later.
+In the interwar period, chess was revolutionized by the new theoretical school of so-called hypermodernists like Aron Nimzowitsch and Richard Réti. They advocated controlling the center of the board with distant pieces rather than with pawns, thus inviting opponents to occupy the center with pawns, which become objects of attack. Among the innovations popularized by hypermodernists was the fianchetto: the development of bishops away from, rather than towards, the center, onto the b- and g-files.
+
+1945–1990: Post-World War II era
+After the death of Alekhine, a new World Champion was sought. FIDE, which has controlled the title since then, ran a tournament of elite players. The winner of the 1948 tournament was Russian Mikhail Botvinnik. In 1950, FIDE established a system of titles, conferring the title of Grandmaster on 27 players. (Some sources state that, in 1914, the title of chess Grandmaster was first formally conferred by Tsar Nicholas II of Russia to Lasker, Capablanca, Alekhine, Tarrasch, and Marshall, but this is a disputed claim.)
+Botvinnik started an era of Soviet dominance in the chess world, which mainly through the Soviet government's politically inspired efforts to demonstrate intellectual superiority over the West stood almost uninterrupted for more than a half-century. Until the dissolution of the Soviet Union, there was only one non-Soviet champion, American Bobby Fischer (champion 1972–1975). Botvinnik also revolutionized opening theory. Previously, Black strove for equality, attempting to neutralize White's first-move advantage. As Black, Botvinnik strove for the initiative from the beginning. In the previous informal system of World Championships, the current champion decided which challenger he would play for the title and the challenger was forced to seek sponsors for the match. FIDE set up a new system of qualifying tournaments and matches. The world's strongest players were seeded into Interzonal tournaments, where they were joined by players who had qualified from Zonal tournaments. The leading finishers in these Interzonals would go through the "Candidates" stage, which was initially a tournament, and later a series of knockout matches. The winner of the Candidates would then play the reigning champion for the title. A champion defeated in a match had a right to play a rematch a year later. This system operated on a three-year cycle. Botvinnik participated in championship matches over a period of fifteen years. He won the world championship tournament in 1948 and retained the title in tied matches in 1951 and 1954. In 1957, he lost to Vasily Smyslov, but regained the title in a rematch in 1958. In 1960, he lost the title to the 23-year-old Latvian prodigy Mikhail Tal, an accomplished tactician and attacking player who is widely regarded as one of the most creative players ever, hence his nickname "the magician from Riga". Botvinnik again regained the title in a rematch in 1961.
+
+Following the 1961 event, FIDE abolished the automatic right of a deposed champion to a rematch, and the next champion, Armenian Tigran Petrosian, a player renowned for his defensive and positional skills, held the title for two cycles, 1963–1969. His successor, Boris Spassky from Russia (champion 1969–1972), won games in both positional and sharp tactical style. The next championship, the so-called Match of the Century, saw the first non-Soviet challenger since World War II, American Bobby Fischer. Fischer defeated his opponents in the Candidates matches by unheard-of margins, and convincingly defeated Spassky for the world championship. The match was followed closely by news media of the day, leading to a surge in popularity for chess; it also held significant political importance at the height of the Cold War, with the match being seen by both sides as a microcosm of the conflict between East and West. In 1975, however, Fischer refused to defend his title against Soviet Anatoly Karpov when he was unable to reach agreement on conditions with FIDE, and Karpov obtained the title by default. Fischer modernized many aspects of chess, especially by extensively preparing openings.
+Karpov defended his title twice against Viktor Korchnoi and dominated the 1970s and early 1980s with a string of tournament successes. In the 1984 World Chess Championship, Karpov faced his toughest challenge to date, the young Garry Kasparov from Baku, Soviet Azerbaijan. The match was aborted in controversial circumstances after 5 months and 48 games with Karpov leading by 5 wins to 3, but evidently exhausted; many commentators believed Kasparov, who had won the last two games, would have won the match had it continued. Kasparov won the 1985 rematch. Kasparov and Karpov contested three further closely fought matches in 1986, 1987 and 1990, Kasparov winning them all. Kasparov became the dominant figure of world chess from the mid-1980s until his retirement from competition in 2005.
+
+Beginnings of chess technology
+Chess-playing computer programs (later known as chess engines) began to appear in the 1960s. In 1970, the first major computer chess tournament, the North American Computer Chess Championship, was held, followed in 1974 by the first World Computer Chess Championship. In the late 1970s, dedicated home chess computers such as Fidelity Electronics' Chess Challenger became commercially available, as well as software to run on home computers. The overall standard of computer chess was low, however, until the 1990s.
+The first endgame tablebases, which provided perfect play for relatively simple endgames such as king and rook versus king and bishop, appeared in the late 1970s. This set a precedent to the complete six- and seven-piece tablebases that became available in the 2000s and 2010s respectively.
+The first commercial chess database, a collection of chess games searchable by move and position, was introduced by the German company ChessBase in 1987. Databases containing millions of chess games have since had a profound effect on opening theory and other areas of chess research.
+Digital chess clocks were invented in 1973, though they did not become commonplace until the 1990s. Digital clocks allow for time controls involving increments and delays.
+
+1990–present: Rise of computers and online chess
+Technology
+The Internet enabled online chess as a new medium of playing, with chess servers allowing users to play other people from different parts of the world in real time. The first such server, known as Internet Chess Server (ICS), was developed at the University of Utah in 1992. ICS formed the basis for the first commercial chess server, the Internet Chess Club, which was launched in 1995, and for other early chess servers such as Free Internet Chess Server (FICS). Since then, many other platforms have appeared, and online chess began to rival over-the-board chess in popularity. During the 2020 COVID-19 pandemic, the isolation ensuing from quarantines imposed in many places around the world, combined with the success of the popular Netflix show The Queen's Gambit and other factors such as the popularity of online tournaments (notably PogChamps) and chess Twitch streamers, resulted in a surge of popularity not only for online chess, but for the game of chess in general; this phenomenon has been referred to in the media as the 2020 online chess boom.
+Computer chess has also seen major advances. By the 1990s, chess engines could consistently defeat most amateurs, and in 1997 Deep Blue defeated World Champion Garry Kasparov in a six-game match, starting an era of computer dominance at the highest level of chess. In the 2010s, engines significantly stronger than even the best human players became accessible for free on a number of PC and mobile platforms, and free engine analysis became a commonplace feature on internet chess servers. An adverse effect of the easy availability of engine analysis on hand-held devices and personal computers has been the rise of computer cheating, which has grown to be a major concern in both over-the-board and online chess. In 2017, AlphaZero – a neural network also capable of playing shogi and Go – was introduced. Since then, many chess engines based on neural network evaluation have been written, the best of which have surpassed the traditional "brute-force" engines. AlphaZero also introduced many novel ideas and ways of playing the game, which affected the style of play at the top level.
+As endgame tablebases developed, they began to provide perfect play in endgame positions in which the game-theoretical outcome was previously unknown, such as positions with king, queen and pawn against king and queen. In 1991, Lewis Stiller published a tablebase for select six-piece endgames, and by 2005, following the publication of Nalimov tablebases, all six-piece endgame positions were solved. In 2012, Lomonosov tablebases were published which solved all seven-piece endgame positions. Use of tablebases enhances the performance of chess engines by providing definitive results in some branches of analysis.
+Technological progress made in the 1990s and the 21st century has influenced the way that chess is studied at all levels, as well as the state of chess as a spectator sport.
+Previously, preparation at the professional level required an extensive chess library and several subscriptions to publications such as Chess Informant to keep up with opening developments and study opponents' games. Today, preparation at the professional level involves the use of databases containing millions of games, and engines to analyze different opening variations and prepare novelties. A number of online learning resources are also available for players of all levels, such as online courses, tactics trainers, and video lessons.
+Since the late 1990s, it has been possible to follow major international chess events online, the players' moves being relayed in real time. Sensory boards have been developed to enable automatic transmission of moves. Chess players will frequently run engines while watching these games, allowing them to quickly identify mistakes by the players and spot tactical opportunities. While in the past the moves have been relayed live, today chess organizers will often impose a half-hour delay as an anti-cheating measure. In the mid-to-late 2010s – and especially following the 2020 online boom – it became commonplace for supergrandmasters, such as Hikaru Nakamura and Magnus Carlsen, to livestream chess content on platforms such as Twitch. Also following the boom, online chess started being viewed as an esport, with esport teams signing chess players for the first time in 2020. The number of esport teams signing chess players rose considerably in 2025, after chess was added to Saudi Arabia's Esports World Cup.
+
+Growth
+Organized chess even for young children has become common. FIDE holds world championships for age levels down to 8 years old. The largest tournaments, in number of players, are those held for children.
+The number of grandmasters and other chess professionals has also grown in the modern era. Kenneth Regan and Guy Haworth conducted research involving comparison of move choices by players of different levels and from different periods with the analysis of strong chess engines. They concluded that the increase in the number of grandmasters and higher Elo ratings of the top players reflect an actual increase in the average standard of play, rather than "rating inflation" or "title inflation".
+
+Professional chess
+In 1993, Garry Kasparov and Nigel Short broke ties with FIDE to organize their own match for the World Championship and formed a competing Professional Chess Association (PCA). From then until 2006, there were two simultaneous World Championships and respective World Champions: the PCA or "classical" champions extending the Steinitzian tradition in which the current champion plays a challenger in a series of games, and the other following FIDE's new format of many players competing in a large knockout tournament to determine the champion. Kasparov lost his PCA title in 2000 to Vladimir Kramnik of Russia. Due to the complicated state of world chess politics and difficulties obtaining commercial sponsorships, Kasparov was never able to challenge for the title again. Despite this, he continued to dominate in top level tournaments and remained the world's highest rated player until his retirement from competitive chess in 2005.
+The World Chess Championship 2006, in which Kramnik beat the FIDE World Champion Veselin Topalov, reunified the titles and made Kramnik the undisputed World Chess Champion. In September 2007, he lost the title to Viswanathan Anand of India. Anand defended his title in the revenge match of 2008, 2010 and 2012. Magnus Carlsen defeated Anand in 2013, defending his title in 2014, 2016, 2018, and 2021, whereafter he announced that he would not defend his title a fifth time. The 2023 championship was played between the winner and runner-up of the Candidates Tournament 2022: Ian Nepomniachtchi of Russia and Ding Liren of China. Ding beat Nepomniachtchi, making him the world champion. In 2024, Indian Gukesh Dommaraju beat Ding.
+
+Connections to other fields
+Arts and humanities
+In the Middle Ages and during the Renaissance, chess was a part of noble culture; it was used to teach war strategy and was dubbed the "King's Game". Gentlemen are "to be meanly seene in the play at Chestes", says the overview at the beginning of Baldassare Castiglione's The Book of the Courtier (1528, English 1561 by Sir Thomas Hoby), but chess should not be a gentleman's main passion. Castiglione explains it further:
+
+And what say you to the game at chestes? It is truely an honest kynde of enterteynmente and wittie, quoth Syr Friderick. But me think it hath a fault, whiche is, that a man may be to couning at it, for who ever will be excellent in the playe of chestes, I beleave he must beestowe much tyme about it, and applie it with so much study, that a man may assoone learne some noble scyence, or compase any other matter of importaunce, and yet in the ende in beestowing all that laboure, he knoweth no more but a game. Therfore in this I beleave there happeneth a very rare thing, namely, that the meane is more commendable, then the excellency.
+Some of the elaborate chess sets used by the aristocracy at least partially survive, such as the Lewis chessmen.
+Chess was often used as a basis of sermons on morality. An example is Liber de moribus hominum et officiis nobilium sive super ludo scacchorum ('Book of the customs of men and the duties of nobles or the Book of Chess'), written by an Italian Dominican friar Jacobus de Cessolis c. 1300. This book was one of the most popular of the Middle Ages. The work was translated into many other languages (the first printed edition was published at Utrecht in 1473) and was the basis for William Caxton's The Game and Playe of the Chesse (1474), one of the first books printed in English. Different chess pieces were used as metaphors for different classes of people, and human duties were derived from the rules of the game or from visual properties of the chess pieces:
+
+The knyght ought to be made alle armed upon an hors in suche wyse that he haue an helme on his heed and a spere in his ryght hande/ and coueryd wyth his sheld/ a swerde and a mace on his lyft syde/ Cladd wyth an hawberk and plates to fore his breste/ legge harnoys on his legges/ Spores on his heelis on his handes his gauntelettes/ his hors well broken and taught and apte to bataylle and couerid with his armes/ whan the knyghtes ben maad they ben bayned or bathed/ that is the signe that they shold lede a newe lyf and newe maners/ also they wake alle the nyght in prayers and orysons vnto god that he wylle gyue hem grace that they may gete that thynge that they may not gete by nature/ The kynge or prynce gyrdeth a boute them a swerde in signe/ that they shold abyde and kepe hym of whom they take theyr dispenses and dignyte.
+Known in the circles of clerics, students, and merchants, chess entered into the popular culture of the Middle Ages. An example is the 209th song of Carmina Burana from the 13th century, which starts with the names of chess pieces, Roch, pedites, regina... The game of chess, at times, has been discouraged by various religious authorities in Middle Ages: Jewish, Catholic and Orthodox. Some Muslim authorities prohibited it even recently, for example Ruhollah Khomeini in 1979 and Abdul-Aziz ash-Sheikh even later.
+During the Age of Enlightenment, chess was viewed as a means of self-improvement. Benjamin Franklin, in his article "The Morals of Chess" (1786), wrote:
+
+The Game of Chess is not merely an idle amusement; several very valuable qualities of the mind, useful in the course of human life, are to be acquired and strengthened by it, so as to become habits ready on all occasions; for life is a kind of Chess, in which we have often points to gain, and competitors or adversaries to contend with, and in which there is a vast variety of good and ill events, that are, in some degree, the effect of prudence, or the want of it. By playing at Chess then, we may learn:
+I. Foresight, which looks a little into futurity, and considers the consequences that may attend an action ...
+II. Circumspection, which surveys the whole Chess-board, or scene of action: – the relation of the several Pieces, and their situations ...
+III. Caution, not to make our moves too hastily ...
+
+Chess was occasionally criticized in the 19th century as a waste of time.
+Chess is taught to children in schools around the world today. Many schools host chess clubs, and there are many scholastic tournaments specifically for children. Tournaments are held regularly in many countries, hosted by organizations such as the United States Chess Federation and the National Scholastic Chess Foundation.
+Chess is many times depicted in the arts; significant works where chess plays a key role range from Thomas Middleton's A Game at Chess to Through the Looking-Glass by Lewis Carroll, to Vladimir Nabokov's The Defense, to The Royal Game by Stefan Zweig. Chess has also featured in film classics such as Ingmar Bergman's The Seventh Seal, Satyajit Ray's The Chess Players, and Powell and Pressburger's A Matter of Life and Death.
+Chess is also present in contemporary popular culture. For example, the characters in Star Trek play a futuristic version of the game called "Federation Tri-Dimensional Chess", and "Wizard's Chess" is played in J.K. Rowling's Harry Potter.
+
+Mathematics
+The game structure and nature of chess are related to several branches of mathematics. Many combinatorical and topological problems connected to chess, such as the knight's tour and the eight queens puzzle, have been known for hundreds of years.
+
+The number of legal positions in chess is estimated to be (4.59 ± 0.38) × 1044 with a 95% confidence level, with a game-tree complexity of approximately 10123. The game-tree complexity of chess was first calculated by Claude Shannon as 10120, a number known as the Shannon number. An average position typically has thirty to forty possible moves, but there may be as few as zero (in the case of checkmate or stalemate) or (in a constructed position) as many as 218.
+In 1913, Ernst Zermelo used chess as a basis for his theory of game strategies, which is considered one of the predecessors of game theory. Zermelo's theorem states that it is possible to solve chess, i.e. to determine with certainty the outcome of a perfectly played game (either White can force a win, or Black can force a win, or both sides can force at least a draw). With 1043 legal positions in chess, however, it will take an impossibly long time to compute a perfect strategy with any feasible technology.
+
+Applied mathematics
+A novel methodology in steganography explores the use of chess-based covers (such as puzzles, chess problems, game reports, training documents, news articles, etc.) for concealing data within a selection of moves, each hiding some bits. Several proof-of-concept projects have been developed that convert text or files into binary code, which is then converted into a series of legal chess moves, that can then be decrypted and downloaded.
+Correspondence chess has been historically suspected of being a potential steganographic medium. Melville Davisson Post documented a chess problem that was used to create a pictorial cipher during World War I. During World War II, extensive postal censorship was imposed on military personnel from the United States and Canada that made playing correspondence chess impossible, arising from suspicion that chess could be used to send secret messages to the enemies.
+
+Psychology
+There is an extensive scientific literature on chess psychology. Alfred Binet and others showed that knowledge and verbal, rather than visuospatial, ability lies at the core of expertise. In his doctoral thesis, Adriaan de Groot showed that chess masters can rapidly perceive the key features of a position. According to de Groot, this perception, made possible by years of practice and study, is more important than the sheer ability to anticipate moves. De Groot showed that chess masters can memorize positions shown for a few seconds almost perfectly. The ability to memorize does not alone account for chess-playing skill, since masters and novices, when faced with random arrangements of chess pieces, had equivalent recall (about six positions in each case). Rather, it is the ability to recognize patterns, which are then memorized, which distinguished the skilled players from the novices. When the positions of the pieces were taken from an actual game, the masters had almost total positional recall.
+More recent research has focused on chess as mental training; the respective roles of knowledge and look-ahead search; brain imaging studies of chess masters and novices; blindfold chess; the role of personality and intelligence in chess skill; gender differences; and computational models of chess expertise. The role of practice and talent in the development of chess and other domains of expertise has led to much empirical investigation. Ericsson and colleagues have argued that deliberate practice is sufficient for reaching high levels of expertise in chess. Recent research, however, fails to replicate their results and indicates that factors other than practice are also important.
+For example, Fernand Gobet and colleagues have shown that stronger players started playing chess at a young age and that experts born in the Northern Hemisphere are more likely to have been born in late winter and early spring. Compared to the general population, chess players are more likely to be non-right-handed, though they found no correlation between handedness and skill.
+A relationship between chess skill and intelligence has long been discussed in scientific literature as well as in popular culture. Academic studies that investigate the relationship date back at least to 1927. Although one meta-analysis and most children studies find a positive correlation between general cognitive ability and chess skill, adult studies show mixed results.
+
+Online chess
+Online chess is chess played over the internet. This is done through the use of internet chess platforms, which use Elo ratings or similar systems to pair up individual players. Online chess saw a spike in growth during the quarantines of the COVID-19 pandemic. This can be attributed to both isolation and the popularity of Netflix miniseries The Queen's Gambit, which was released in October 2020. Chess app downloads on the App Store and Google Play Store rose by 63% after the show debuted. Chess.com saw more than twice as many account registrations in November as it had in previous months, and the number of games played monthly on Lichess doubled as well. There was also a demographic shift in players, with female registration on Chess.com shifting from 22% to 27% of new players. GM Maurice Ashley said "A boom is taking place in chess like we have never seen maybe since the Bobby Fischer days", attributing the growth to an increased desire to do something constructive during the pandemic. USCF Women's Program Director Jennifer Shahade stated that chess works well on the internet, since pieces do not need to be reset and matchmaking is virtually instant.
+
+Computer chess
+The idea of creating a chess-playing machine dates to the 18th century; around 1769, the chess-playing automaton called The Turk became famous before being exposed as a hoax. Serious trials based on automata, such as El Ajedrecista, were too complex and limited to be useful. Since the advent of the digital computer in the 1950s, chess enthusiasts, computer engineers, and computer scientists have built, with increasing degrees of seriousness and success, chess-playing machines and computer programs. The groundbreaking paper on computer chess, "Programming a Computer for Playing Chess", was published in 1950 by Claude Shannon. He wrote:
+
+The chess machine is an ideal one to start with, since: (1) the problem is sharply defined both in allowed operations (the moves) and in the ultimate goal (checkmate); (2) it is neither so simple as to be trivial nor too difficult for satisfactory solution; (3) chess is generally considered to require "thinking" for skillful play; a solution of this problem will force us either to admit the possibility of a mechanized thinking or to further restrict our concept of "thinking"; (4) the discrete structure of chess fits well into the digital nature of
+modern computers.
+
+The Association for Computing Machinery (ACM) held the first major chess tournament for computers, the North American Computer Chess Championship, in September 1970. CHESS 3.0, a chess program from Northwestern University, won the championship. The first World Computer Chess Championship, held in 1974, was won by the Soviet program Kaissa. At first considered only a curiosity, the best chess playing programs have become extremely strong. In 1997, a computer won a chess match using classical time controls against a reigning World Champion for the first time: IBM's Deep Blue beat Garry Kasparov 3½–2½ (it scored two wins, one loss, and three draws). There was some controversy over the match, and human–computer matches were relatively close over the next few years, until convincing computer victories in 2005 and in 2006.
+In 2009, a mobile phone won a category 6 tournament with a performance rating of 2898: chess engine Hiarcs 13 running on the mobile phone HTC Touch HD won the Copa Mercosur tournament with nine wins and one draw. The best chess programs are now able to consistently beat the strongest human players, to the extent that human–computer matches no longer attract interest from chess players or the media. While the World Computer Chess Championship still exists, the Top Chess Engine Championship (TCEC) is widely regarded as the unofficial world championship for chess engines. The current champion is Stockfish.
+With huge databases of past games and high analytical ability, computers can help players to learn chess and prepare for matches. Internet Chess Servers allow people to find and play opponents worldwide. The presence of computers and modern communication tools have raised concerns regarding cheating during games.
+
+Related games
+Related games include:
+
+direct predecessors of chess, such as chaturanga and shatranj;
+traditional national or regional games that share common ancestors with Western chess such as xiangqi (Chinese chess), shogi (Japanese chess), janggi (Korean chess), ouk chatrang (Cambodian chess), makruk (Thai chess), sittuyin (Burmese chess), and shatar (Mongolian chess);
+In the comparison of chess with games often referred to as national forms of chess, chess may be referred to as Western chess or international chess.
+
+Chess variants
+There are more than two thousand published chess variants, games with similar but different rules. Most of them are of relatively recent origin. They include modern variations employing different rules (e.g. losing chess and Chess960), different forces (e.g. Dunsany's chess), non-standard pieces (e.g. Grand Chess), and different board geometries (e.g. hexagonal chess and infinite chess);
+In the context of chess variants, chess is commonly referred to as orthodox chess, orthochess, and classic chess.
+
+See also
+Glossary of chess
+Glossary of chess problems
+List of abstract strategy games
+List of chess players
+List of World Chess Championships
+Outline of chess
+Women in chess
+
+Notes
+References
+Bibliography
+Further reading
+Bird, Henry (2008) [First published 1893]. Chess History and Reminiscences. Forgotten Books. ISBN 978-1-60620-897-7.
+Dunnington, Angus (2003). Chess Psychology: Approaching the Psychological Battle Both on and Off the Board. Everyman Chess. ISBN 978-1-85744-326-4.
+Fine, Reuben (1983). The World's Great Chess Games. Courier Dover Publications. ISBN 978-0-486-24512-6. OCLC 9394460.
+Hale, Benjamin (2008). Philosophy Looks at Chess. Open Court Publishing Company. ISBN 978-0-8126-9633-2.
+Ilko, Krisztina (2024). "Chess and Race in the Global Middle Ages". Speculum. 99 (2): 480–540. doi:10.1086/729294.
+Kotov, Alexander (1971). Think Like a Grandmaster. B.T. Batsford Ltd. ISBN 978-0-7134-3160-5.
+Lasker, Emanuel (1960). Lasker's Manual of Chess. Dover. ISBN 978-0-486-20640-0.
+Leibs, Andrew (2004). Sports and Games of the Renaissance. Westport, CT: Greenwood Publishing Group. ISBN 978-0-313-32772-8.
+Mason, James (1947). The Art of Chess. Dover Publications. ISBN 978-0-486-20463-5. OCLC 45271009. (see the included supplement, "How Do You Play Chess")
+Pachman, Ludek (1971). Modern Chess Strategy. Dover. ISBN 978-0-486-20290-7.
+Réti, Richard (1960). Modern Ideas in Chess. Dover. ISBN 978-0-486-20638-7.
+Rizzitano, James (2004). Understanding Your Chess. Gambit Publications. ISBN 978-1-904600-07-7. OCLC 55205602.
+Steinitz, William; Landsberger, Kurt (2002). The Steinitz Papers: Letters and Documents of the First World Chess Champion. Jefferson, NC: McFarland & Company. ISBN 978-0-7864-1193-1. OCLC 48550929.
+Verwer, Renzo (2010). Bobby Fischer for Beginners. Alkmaar: New in Chess. ISBN 978-90-5691-315-1.
+Wilkinson, Charles K. (May 1943). "Chessmen and Chess". The Metropolitan Museum of Art Bulletin. New Series 1 (9): 271–79. doi:10.2307/3257111. JSTOR 3257111.
+
+External links
+
+International organizations
+FIDE – World Chess Federation
+ICCF – International Correspondence Chess Federation
+News
+Chessbase news
+The Week in Chess
+History
+Chesshistory.com
+
+Democracy (from Ancient Greek: δημοκρατία, romanized: dēmokratía, dēmos 'people' and kratos 'rule') is a form of government in which state power is vested in the people or the general population of a state. Under a minimalist definition of democracy, rulers are elected through competitive elections while more expansive or maximalist definitions link democracy to guarantees of civil liberties and human rights in addition to competitive elections.
+In a direct democracy, the people have the direct authority to deliberate and decide legislation. In a representative democracy, the people choose governing officials through elections to do so. The definition of "the people" and the ways authority is shared among them or delegated by them have changed over time and at varying rates in different countries. Features of democracy oftentimes include freedom of assembly, association, personal property, freedom of religion and speech, citizenship, consent of the governed, voting rights, freedom from unwarranted governmental deprivation of the right to life and liberty, and minority rights.
+The notion of democracy has evolved considerably over time. Throughout history, one can find evidence of direct democracy, in which communities make decisions through popular assembly. Today, the dominant form of democracy is representative democracy, where citizens elect government officials to govern on their behalf such as in a parliamentary or presidential democracy. In the common variant of liberal democracy, the powers of the majority are exercised within the framework of a representative democracy, but a constitution and supreme court limit the majority and protect the minority—usually through securing the enjoyment by all of certain individual rights, such as freedom of speech or freedom of association.
+The term appeared in the 5th century BC in Greek city-states, notably Classical Athens, to mean "rule of the people", in contrast to aristocracy (ἀριστοκρατία, aristokratía), meaning "rule of an elite". In virtually all democratic governments throughout ancient and modern history, democratic citizenship was initially restricted to an elite class, which was later extended to all adult citizens. In most modern democracies, this was achieved through the suffrage movements of the 19th and 20th centuries.
+Democracy contrasts with forms of government where power is not vested in the general population of a state, such as authoritarian systems. Historically a rare and vulnerable form of government, democratic systems of government have become more prevalent since the 19th century, in particular with various waves of democratization. Democracy garners considerable legitimacy in the modern world, as public opinion across regions tends to strongly favor democratic systems of government relative to alternatives, and as even authoritarian states try to present themselves as democratic. According to the V-Dem Democracy indices and The Economist Democracy Index, less than half the world's population lives in a democracy as of 2022.
+
+Characteristics
+Although democracy is generally understood to be defined by voting, no consensus exists on a precise definition of democracy. Karl Popper says that the "classical" view of democracy is, "in brief, the theory that democracy is the rule of the people and that the people have a right to rule". One study identified 2,234 adjectives used to describe democracy in the English language.
+Democratic principles are reflected in all eligible citizens being equal before the law and having equal access to legislative processes. For example, in a representative democracy, every vote has (in theory) equal weight, and the freedom of eligible citizens is secured by legitimised rights and liberties which are typically enshrined in a constitution, while other uses of "democracy" may encompass direct democracy, in which citizens vote on issues directly. According to the United Nations, democracy "provides an environment that respects human rights and fundamental freedoms, and in which the freely expressed will of people is exercised."
+One theory holds that democracy requires three fundamental principles: upward control (sovereignty residing at the lowest levels of authority), political equality, and social norms by which individuals and institutions only consider acceptable acts that reflect the first two principles of upward control and political equality. Legal equality, political freedom and rule of law are often identified by commentators as foundational characteristics for a well-functioning democracy.
+In some countries, notably in the United Kingdom (which originated the Westminster system), the dominant principle is that of parliamentary sovereignty, while maintaining judicial independence. In India, parliamentary sovereignty is subject to the Constitution of India which includes judicial review. Though the term "democracy" is typically used in the context of a political state, the principles also are potentially applicable to private organisations, such as clubs, societies and firms.
+Democracies may use many different decision-making methods, but majority rule is the dominant form. Without compensation, like legal protections of individual or group rights, political minorities can be oppressed by the "tyranny of the majority". Majority rule involves a competitive approach, opposed to consensus democracy, creating the need that elections, and generally deliberation, be substantively and procedurally "fair"," i.e. just and equitable. In some countries, freedom of political expression, freedom of speech, and freedom of the press are considered important to ensure that voters are well informed, enabling them to vote according to their own interests and beliefs.
+It has also been suggested that a basic feature of democracy is the capacity of all voters to participate freely and fully in the life of their society. With its emphasis on notions of social contract and the collective will of all the voters, democracy can also be characterised as a form of political collectivism because it is defined as a form of government in which all eligible citizens have an equal say in lawmaking.
+Republics, though often popularly associated with democracy because of the shared principle of rule by consent of the governed, are not necessarily democracies, as republicanism does not specify how the people are to rule.
+Classically the term "republic" encompassed both democracies and aristocracies. In a modern sense the republican form of government is a form of government without a monarch. Because of this, democracies can be republics or constitutional monarchies, such as the United Kingdom.
+
+History
+Democratic assemblies are as old as the human species and are found throughout human history, but up until the nineteenth century, major political figures have largely opposed democracy. Republican theorists linked democracy to small size: as political units grew in size, the likelihood increased that the government would turn despotic. At the same time, small political units were vulnerable to conquest. Montesquieu wrote, "If a republic be small, it is destroyed by a foreign force; if it is large, it is ruined by an internal imperfection." According to Johns Hopkins University political scientist Daniel Deudney, the creation of the United States, with its large size and its system of checks and balances, was a solution to the dual problems of size. Forms of democracy occurred organically in societies around the world that had no contact with each other.
+
+Origins
+Greece and Rome
+The term democracy first appeared in ancient Greek political and philosophical thought in the city-state of Athens during classical antiquity. The word comes from dêmos '(common) people' and krátos 'force/might'. Under Cleisthenes, what is generally held as the first example of a type of democracy in the sixth-century BC (508–507 BC) was established in Athens. Cleisthenes is referred to as "the father of Athenian democracy". The first attested use of the word democracy is found in prose works of the 430s BC, such as Herodotus' Histories, but its usage was older by several decades, as two Athenians born in the 470s were named Democrates, a new political name—likely in support of democracy—given at a time of debates over constitutional issues in Athens. Aeschylus also strongly alludes to the word in his play The Suppliants, staged in c.463 BC, where he mentions "the demos's ruling hand" [demou kratousa cheir]. Before that time, the word used to define the new political system of Cleisthenes was probably isonomia, meaning political equality.
+
+Athenian democracy took the form of direct democracy, and it had two distinguishing features: the random selection of ordinary citizens to fill the few existing government administrative and judicial offices, and a legislative assembly consisting of all Athenian citizens. All eligible citizens were allowed to speak and vote in the assembly, which set the laws of the city-state. However, Athenian citizenship excluded women, slaves, foreigners (μέτοικοι / métoikoi), and youths below the age of military service. Effectively, only 1 in 4 residents in Athens qualified as citizens. Owning land was not a requirement for citizenship. The exclusion of large parts of the population from the citizen body is closely related to the ancient understanding of citizenship. In most of antiquity the benefit of citizenship was tied to the obligation to fight war campaigns.
+Athenian democracy was not only direct in the sense that decisions were made by the assembled people, but also the most direct in the sense that the people through the assembly, boule and courts of law controlled the entire political process and a large proportion of citizens were involved constantly in the public business. Even though the rights of the individual were not secured by the Athenian constitution in the modern sense (the ancient Greeks had no word for "rights"), those who were citizens of Athens enjoyed their liberties not in opposition to the government but by living in a city that was not subject to another power and by not being subjects themselves to the rule of another person.
+Range voting appeared in Sparta as early as 700 BC. The Spartan ecclesia was an assembly of the people, held once a month, in which every male citizen of at least 20 years of age could participate. In the assembly, Spartans elected leaders and cast votes by range voting and shouting (the vote is then decided on how loudly the crowd shouts). Aristotle called this "childish", as compared with the stone voting ballots used by the Athenian citizenry. Sparta adopted it because of its simplicity, and to prevent any biased voting, buying, or cheating that was predominant in the early democratic elections.
+
+Even though the Roman Republic contributed significantly to many aspects of democracy, only a minority of Romans were citizens with votes in elections for representatives. The votes of the powerful were given more weight through a system of weighted voting, so most high officials, including members of the Senate, came from a few wealthy and noble families. In addition, the overthrow of the Roman Kingdom was the first case in the Western world of a polity being formed with the explicit purpose of being a republic, although it did not have much of a democracy. The Roman model of governance inspired many political thinkers over the centuries.
+
+Ancient India
+Vaishali, capital city of the Vajjika League (Vrijji mahajanapada) of India, is considered one of the first examples of a republic around the 6th century BC.
+
+Americas
+Other cultures, such as the Iroquois in the Americas also developed a form of democratic society between 1450 and 1660 (and possibly in 1142), well before contact with the Europeans. This democracy continues to the present day and is the world's oldest standing representative democracy.
+
+Africa
+Middle Ages
+While most regions in Europe during the Middle Ages were ruled by clergy or feudal lords, there existed various systems involving elections or assemblies, although often only involving a small part of the population. In Scandinavia, bodies known as things consisted of freemen presided by a lawspeaker. These deliberative bodies were responsible for settling political questions, and variants included the Althing in Iceland and the Løgting in the Faeroe Islands. The veche, found in Eastern Europe, was a similar body to the Scandinavian thing. In the Roman Catholic Church, the pope has been elected by a papal conclave composed of cardinals since 1059. The first documented parliamentary body in Europe was the Cortes of León. Established by Alfonso IX in 1188, the Cortes had authority over setting taxation, foreign affairs and legislating, though the exact nature of its role remains disputed. The Republic of Ragusa, established in 1358 and centered around the city of Dubrovnik, provided representation and voting rights to its male aristocracy only. Various Italian city-states and polities had republic forms of government. For instance, the Republic of Florence, established in 1115, was led by the Signoria whose members were chosen by sortition. In the 10th–15th century Frisia, a distinctly non-feudal society, the right to vote on local matters and on county officials was based on land size. The Kouroukan Fouga divided the Mali Empire into ruling clans (lineages) that were represented at a great assembly called the Gbara. However, the charter made Mali more similar to a constitutional monarchy than a democratic republic.
+
+The Parliament of England had its roots in the restrictions on the power of kings written into Magna Carta (1215), which explicitly protected certain rights of the King's subjects and implicitly supported what became the English writ of habeas corpus, safeguarding individual freedom against unlawful imprisonment with the right to appeal. The first representative national assembly in England was Simon de Montfort's Parliament in 1265. The emergence of petitioning is some of the earliest evidence of parliament being used as a forum to address the general grievances of ordinary people. However, the power to call parliament remained at the pleasure of the monarch.
+Studies have linked the emergence of parliamentary institutions in Europe during the medieval period to urban agglomeration and the creation of new classes, such as artisans, as well as the presence of nobility and religious elites. Scholars have also linked the emergence of representative government to Europe's relative political fragmentation. Political scientist David Stasavage links the fragmentation of Europe, and its subsequent democratization, to the manner in which the Roman Empire collapsed: Roman territory was conquered by small fragmented groups of Germanic tribes, thus leading to the creation of small political units where rulers were relatively weak and needed the consent of the governed to ward off foreign threats.
+In Poland, noble democracy was characterized by an increase in the activity of the middle nobility, which wanted to increase their share in exercising power at the expense of the magnates. Magnates dominated the most important offices in the state (secular and ecclesiastical) and sat on the royal council, later the senate. The growing importance of the middle nobility had an impact on the establishment of the institution of the land sejmik (local assembly), which subsequently obtained more rights. During the fifteenth and first half of the sixteenth century, sejmiks received more and more power and became the most important institutions of local power. In 1454, Casimir IV Jagiellon granted the sejmiks the right to decide on taxes and to convene a mass mobilization in the Nieszawa Statutes. He also pledged not to create new laws without their consent.
+
+Modern era
+Early modern period
+In 17th century England, there was renewed interest in Magna Carta. The Parliament of England passed the Petition of Right in 1628 which established certain liberties for subjects. The English Civil War (1642–1651) was fought between the King and an oligarchic but elected Parliament, during which the idea of a political party took form with groups debating rights to political representation during the Putney Debates of 1647. Subsequently, the Protectorate (1653–59) and the English Restoration (1660) restored more autocratic rule, although Parliament passed the Habeas Corpus Act in 1679 which strengthened the convention that forbade detention lacking sufficient cause or evidence. After the Glorious Revolution of 1688, the Bill of Rights was enacted in 1689 which codified certain rights and liberties and is still in effect. The Bill set out the requirement for regular elections, rules for freedom of speech in Parliament and limited the power of the monarch, ensuring that, unlike much of Europe at the time, royal absolutism would not prevail. Economic historians Douglass North and Barry Weingast have characterized the institutions implemented in the Glorious Revolution as a resounding success in terms of restraining the government and ensuring protection for property rights.
+
+Renewed interest in the Magna Carta, the English Civil War, and the Glorious Revolution in the 17th century prompted the growth of political philosophy on the British Isles. Thomas Hobbes was the first philosopher to articulate a detailed social contract theory. Writing in the Leviathan (1651), Hobbes theorized that individuals living in the state of nature led lives that were "solitary, poor, nasty, brutish and short" and constantly waged a war of all against all. In order to prevent the occurrence of an anarchic state of nature, Hobbes reasoned that individuals ceded their rights to a strong, authoritarian power. In other words, Hobbes advocated for an absolute monarchy which, in his opinion, was the best form of government. Later, philosopher and physician John Locke would posit a different interpretation of social contract theory. Writing in his Two Treatises of Government (1689), Locke posited that all individuals possessed the inalienable rights to life, liberty and estate (property). According to Locke, individuals would voluntarily come together to form a state for the purposes of defending their rights. Particularly important for Locke were property rights, whose protection Locke deemed to be a government's primary purpose. Furthermore, Locke asserted that governments were legitimate only if they held the consent of the governed. For Locke, citizens had the right to revolt against a government that acted against their interest or became tyrannical. Although they were not widely read during his lifetime, Locke's works are considered the founding documents of liberal thought and profoundly influenced the leaders of the American Revolution and later the French Revolution. His liberal democratic framework of governance remains the preeminent form of democracy in the world.
+In the Cossack republics of Ukraine in the 16th and 17th centuries, the Cossack Hetmanate and Zaporizhian Sich, the holder of the highest post of Hetman was elected by the representatives from the country's districts.
+In North America, representative government began in Jamestown, Virginia, with the election of the House of Burgesses (forerunner of the Virginia General Assembly) in 1619. English Puritans who migrated from 1620 established colonies in New England whose local governance was democratic; although these local assemblies had some small amounts of devolved power, the ultimate authority was held by the Crown and the English Parliament. The Puritans (Pilgrim Fathers), Baptists, and Quakers who founded these colonies applied the democratic organisation of their congregations also to the administration of their communities in worldly matters.
+
+18th and 19th centuries
+The first Parliament of Great Britain was established in 1707, after the merger of the Kingdom of England and the Kingdom of Scotland under the Acts of Union. Two key documents of the UK's uncodified constitution, the English Declaration of Right, 1689 (restated in the Bill of Rights 1689) and the Scottish Claim of Right 1689, had both cemented Parliament's position as the supreme law-making body and said that the "election of members of Parliament ought to be free". However, Parliament was only elected by male property owners, which amounted to 3% of the population in 1780. The first known British person of African heritage to vote in a general election, Ignatius Sancho, voted in 1774 and 1780.
+During the Age of Liberty in Sweden (1718–1772), civil rights were expanded and power shifted from the monarch to parliament. The taxed peasantry was represented in parliament, although with little influence, but commoners without taxed property had no suffrage.
+The creation of the short-lived Corsican Republic in 1755 was an early attempt to adopt a democratic constitution (all men and women above age of 25 could vote). This Corsican Constitution was the first based on Enlightenment principles and included female suffrage, something that was not included in most other democracies until the 20th century.
+
+Colonial America had similar property qualifications as Britain, and in the period before 1776 the abundance and availability of land meant that large numbers of colonists met such requirements with at least 60 per cent of adult white males able to vote. The great majority of white men were farmers who met the property ownership or taxpaying requirements. With few exceptions, no blacks or women could vote. Vermont, which, on declaring independence of Great Britain in 1777, adopted a constitution modelled on Pennsylvania's citizenship and democratic suffrage for males with or without property. The United States Constitution of 1787 is the oldest surviving, still active, governmental codified constitution. The Constitution provided for an elected government and protected civil rights and liberties, but did not end slavery nor extend voting rights in the United States, instead leaving the issue of suffrage to the individual states. Generally, states limited suffrage to white male property owners and taxpayers. At the time of the first Presidential election in 1789, about 6% of the population was eligible to vote. The Naturalization Act of 1790 limited U.S. citizenship to whites only. The Bill of Rights in 1791 set limits on government power to protect personal freedoms but had little impact on judgements by the courts for the first 130 years after ratification.
+
+In 1789, Revolutionary France adopted the Declaration of the Rights of Man and of the Citizen and, although short-lived, the National Convention was elected by all men in 1792. The Polish-Lithuanian Constitution of 3 May 1791 sought to implement a more effective constitutional monarchy, introduced political equality between townspeople and nobility, and placed the peasants under the protection of the government, mitigating the worst abuses of serfdom. In force for less than 19 months, it was declared null and void by the Grodno Sejm that met in 1793. Nonetheless, the 1791 Constitution helped keep alive Polish aspirations for the eventual restoration of the country's sovereignty over a century later.
+In the United States, the 1828 presidential election was the first in which non-property-holding white males could vote in the vast majority of states. Voter turnout soared during the 1830s, reaching about 80% of the adult white male population in the 1840 presidential election. North Carolina was the last state to abolish property qualification in 1856 resulting in a close approximation to universal white male suffrage (however tax-paying requirements remained in five states in 1860 and survived in two states until the 20th century). In the 1860 United States census, the slave population had grown to four million, and in Reconstruction after the Civil War, three constitutional amendments were passed: the 13th Amendment (1865) that ended slavery; the 14th Amendment (1869) that gave black people citizenship, and the 15th Amendment (1870) that gave black males a nominal right to vote. Full enfranchisement of citizens was not secured until after the civil rights movement gained passage by the US Congress of the Voting Rights Act of 1965.
+
+The voting franchise in the United Kingdom was expanded and made more uniform in a series of reforms that began with the Reform Act 1832 and continued into the 20th century, notably with the Representation of the People Act 1918 and the Equal Franchise Act 1928. Universal male suffrage was established in France in March 1848 in the wake of the French Revolution of 1848. During that year, several revolutions broke out in Europe as rulers were confronted with popular demands for liberal constitutions and more democratic government.
+In 1876, the Ottoman Empire transitioned from an absolute monarchy to a constitutional one, and held two elections the next year to elect members to her newly formed parliament. Provisional Electoral Regulations were issued, stating that the elected members of the Provincial Administrative Councils would elect members to the first Parliament. Later that year, a new constitution was promulgated, which provided for a bicameral Parliament with a Senate appointed by the Sultan and a popularly elected Chamber of Deputies. Only men above the age of 30 who were competent in Turkish and had full civil rights were allowed to stand for election. Reasons for disqualification included holding dual citizenship, being employed by a foreign government, being bankrupt, employed as a servant, or having "notoriety for ill deeds". Full universal suffrage was achieved in 1934.
+In 1893, the self-governing colony New Zealand became the first country in the world (except for the short-lived 18th-century Corsican Republic) to establish active universal suffrage by recognizing women as having the right to vote.
+
+20th and 21st centuries
+20th-century transitions to liberal democracy have come in successive "waves of democracy", variously resulting from wars, revolutions, decolonisation, and religious and economic circumstances. Global waves of "democratic regression" reversing democratization, have also occurred in the 1920s and 30s, in the 1960s and 1970s, and in the 2010s.
+
+World War I and the dissolution of the autocratic Ottoman and Austro-Hungarian empires resulted in the creation of new nation-states in Europe, most of them at least nominally democratic. In the 1920s democratic movements flourished and women's suffrage advanced, but the Great Depression brought disenchantment and most of the countries of Europe, Latin America, and Asia turned to strong-man rule or dictatorships. Fascism and dictatorships flourished in Nazi Germany, Italy, Spain and Portugal, as well as non-democratic governments in the Baltics, the Balkans, Brazil, Cuba, China, and Japan, among others.
+
+World War II brought a definitive reversal of this trend in Western Europe. The democratisation of the American, British, and French sectors of occupied Germany (disputed), Austria, Italy, and the occupied Japan served as a model for the later theory of government change. However, most of Eastern Europe, including the Soviet sector of Germany fell into the non-democratic Soviet-dominated bloc.
+The war was followed by decolonisation, and again most of the new independent states had nominally democratic constitutions. India emerged as the world's largest democracy and continues to be so. Countries that were once part of the British Empire often adopted the British Westminster system.
+In 1948, the Universal Declaration of Human Rights mandated democracy:
+
+3. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.
+
+By 1960, the vast majority of country-states were nominally democracies, although most of the world's populations lived in nominal democracies that experienced sham elections, and other forms of subterfuge (particularly in "Communist" states and the former colonies). A subsequent wave of democratisation brought substantial gains toward true liberal democracy for many states, dubbed "third wave of democracy". Portugal, Spain, and several of the military dictatorships in South America returned to civilian rule in the 1970s and 1980s. This was followed by countries in East and South Asia by the mid-to-late 1980s. Economic malaise in the 1980s, along with resentment of Soviet oppression, contributed to the collapse of the Soviet Union, the associated end of the Cold War, and the democratisation and liberalisation of the former Eastern bloc countries. The most successful of the new democracies were those geographically and culturally closest to western Europe, and they are now either part of the European Union or candidate states. In 1986, after the toppling of the most prominent Asian dictatorship, the only democratic state of its kind at the time emerged in the Philippines with the rise of Corazon Aquino, who would later be known as the mother of Asian democracy.
+
+The liberal trend spread to some states in Africa in the 1990s, most prominently in South Africa. Some recent examples of attempts of liberalisation include the Indonesian Revolution of 1998, the Bulldozer Revolution in Yugoslavia, the Rose Revolution in Georgia, the Orange Revolution in Ukraine, the Cedar Revolution in Lebanon, the Tulip Revolution in Kyrgyzstan, and the Jasmine Revolution in Tunisia.
+
+According to Freedom House, in 2007 there were 123 electoral democracies (up from 40 in 1972). According to World Forum on Democracy, electoral democracies now represent 120 of the 192 existing countries and constitute 58.2 per cent of the world's population. At the same time liberal democracies i.e. countries Freedom House regards as free and respectful of basic human rights and the rule of law are 85 in number and represent 38 per cent of the global population. Also in 2007 the United Nations declared 15 September the International Day of Democracy.
+
+Many countries reduced their voting age to 18 years; the major democracies began to do so in the 1970s starting in Western Europe and North America. Most electoral democracies continue to exclude those younger than 18 from voting. The voting age has been lowered to 16 for national elections in a number of countries, including Brazil, Austria, Cuba, and Nicaragua. In California, a 2004 proposal to permit a quarter vote at 14 and a half vote at 16 was ultimately defeated. In 2008, the German parliament proposed but shelved a bill that would grant the vote to each citizen at birth, to be used by a parent until the child claims it for themselves.
+According to Freedom House, starting in 2005, there have been 17 consecutive years in which declines in political rights and civil liberties throughout the world have outnumbered improvements, as populist and nationalist political forces have gained ground everywhere from Poland (under the Law and Justice party) to the Philippines (under Rodrigo Duterte). In a Freedom House report released in 2018, Democracy Scores for most countries declined for the 12th consecutive year. The Christian Science Monitor reported that nationalist and populist political ideologies were gaining ground, at the expense of rule of law, in countries like Poland, Turkey and Hungary. For example, in Poland, the President appointed 27 new Supreme Court judges over legal objections from the European Commission. In Turkey, thousands of judges were removed from their positions following a failed coup attempt during a government crackdown .
+
+"Democratic backsliding" in the 2010s were attributed to economic inequality and social discontent, personalism, poor government's management of the COVID-19 pandemic, as well as other factors such as manipulation of civil society, "toxic polarization", foreign disinformation campaigns, racism and nativism, excessive executive power, and decreased power of the opposition. Within English-speaking Western democracies, "protection-based" attitudes combining cultural conservatism and leftist economic attitudes were the strongest predictor of support for authoritarian modes of governance.
+
+Theory
+Early theory
+Aristotle contrasted rule by the many (democracy/timocracy), with rule by the few (oligarchy/aristocracy/elitism), and with rule by a single person (tyranny/autocracy/absolute monarchy). He also thought that there was a good and a bad variant of each system (he considered democracy to be the degenerate counterpart to timocracy).
+A common view among early and renaissance Republican theorists was that democracy could only survive in small political communities. Heeding the lessons of the Roman Republic's shift to monarchism as it grew larger or smaller, these Republican theorists held that the expansion of territory and population inevitably led to tyranny. Democracy was therefore highly fragile and rare historically, as it could only survive in small political units, which due to their size were vulnerable to conquest by larger political units. Montesquieu famously said, "if a republic is small, it is destroyed by an outside force; if it is large, it is destroyed by an internal vice." Rousseau asserted, "It is, therefore the natural property of small states to be governed as a republic, of middling ones to be subject to a monarch, and of large empires to be swayed by a despotic prince."
+
+Contemporary theory
+Among modern political theorists, there are different fundamental conceptions of democracy.
+
+Aggregation
+The theory of aggregative democracy claims that the aim of the democratic processes is to solicit citizens' preferences and aggregate them together to determine what social policies society should adopt. Therefore, proponents of this view hold that democratic participation should primarily focus on voting, where the policy with the most votes gets implemented. Different variants of aggregative democracy exist. 
+According to the minimalist democracy conception, elections are a mechanism for competition between politicians. Joseph Schumpeter articulated this view famously in his book Capitalism, Socialism, and Democracy. Contemporary proponents of minimalism include William H. Riker, Adam Przeworski, Richard Posner. 
+According to the median voter theorem governments will tend to produce laws and policies close to the views of the median voter with half to their left and the other half to their right. Anthony Downs suggests that ideological political parties are necessary to act as a mediating broker between individuals and governments. Downs laid out this view in his 1957 book An Economic Theory of Democracy.
+According to the theory of direct democracy, on the other hand, citizens should vote directly, not through their representatives, on legislative proposals. Proponents of direct democracy offer varied reasons to support this view. Political activity can be valuable in itself, it socialises and educates citizens, and popular participation can check powerful elites. Proponents view citizens do not rule themselves unless they directly decide laws and policies.
+
+Polyarchy
+Robert A. Dahl argues that the fundamental democratic principle is that, when it comes to binding collective decisions, each person in a political community is entitled to have his/her interests be given equal consideration (not necessarily that all people are equally satisfied by the collective decision). He uses the term polyarchy to refer to societies in which there exists a certain set of institutions and procedures which are perceived as leading to such democracy. First and foremost among these institutions is the regular occurrence of free and open elections which are used to select representatives who then manage all or most of the public policy of the society. However, these polyarchic procedures may not create a full democracy if, for example, poverty prevents political participation. Similarly, Ronald Dworkin argues that "democracy is a substantive, not a merely procedural, ideal."
+
+Deliberation
+Deliberative democracy is based on the notion that democracy is government by deliberation. Unlike aggregative democracy, deliberative democracy holds that, for a democratic decision to be legitimate, it must be preceded by authentic deliberation, not merely the aggregation of preferences that occurs in voting. Authentic deliberation is deliberation among decision-makers that is free from distortions of unequal political power, such as power a decision-maker obtained through economic wealth or the support of interest groups. If the decision-makers cannot reach consensus after authentically deliberating on a proposal, then they vote on the proposal using a form of majority rule. Citizens assemblies are considered by many scholars as practical examples of deliberative democracy, with a recent OECD report identifying citizens assemblies as an increasingly popular mechanism to involve citizens in governmental decision-making.
+
+Measurement of democracy
+Measurement of democracy varies according to the different fundamental conceptions of democracy. Minimalist democracy evaluations focus on free and fair elections, while maximalist democracy evaluates additional values, such as human rights, deliberation, economic outcomes or state capacity.
+
+Types of governmental democracies
+Democracy has taken a number of forms, both in theory and practice. Some varieties of democracy provide better representation and more freedom for their citizens than others. However, if any democracy is not structured to prohibit the government from excluding the people from the legislative process, or any branch of government from altering the separation of powers in its favour, then a branch of the system can accumulate too much power and destroy the democracy.
+
+The following kinds of democracy are not exclusive of one another: many specify details of aspects that are independent of one another and can co-exist in a single system.
+
+Basic forms
+Several variants of democracy exist, but there are two basic forms, both of which concern how the whole body of all eligible citizens executes its will. One form of democracy is direct democracy, in which all eligible citizens have active participation in the political decision making, for example voting on policy initiatives directly. In most modern democracies, the whole body of eligible citizens remain the sovereign power but political power is exercised indirectly through elected representatives; this is called a representative democracy.
+
+Direct
+Direct democracy is a political system where the citizens participate in the decision-making personally, contrary to relying on intermediaries or representatives. A direct democracy gives the voting population the power to:
+
+Change constitutional laws,
+Put forth initiatives, referendums and suggestions for laws
+Within modern-day representative governments, certain electoral tools like referendums, citizens' initiatives and recall elections are referred to as forms of direct democracy. However, some advocates of direct democracy argue for local assemblies of face-to-face discussion. Direct democracy as a government system currently exists in the Swiss cantons of Appenzell Innerrhoden and Glarus, the Rebel Zapatista Autonomous Municipalities, communities affiliated with the CIPO-RFM, the Bolivian city councils of FEJUVE, and Kurdish cantons of Rojava.
+
+Semi-direct
+Some modern democracies that are predominantly representative in nature also heavily rely upon forms of political action that are directly democratic. These democracies, which combine elements of representative democracy and direct democracy, are termed semi-direct democracies or participatory democracies. Examples include Switzerland and some U.S. states, where frequent use is made of referendums and initiatives.
+The Swiss confederation is a semi-direct democracy. At the federal level, citizens can propose changes to the constitution (federal popular initiative) or ask for a referendum to be held on any law voted by the parliament. Between January 1995 and June 2005, Swiss citizens voted 31 times, to answer 103 questions (during the same period, French citizens participated in only two referendums). Although in the past 120 years less than 250 initiatives have been put to referendum.
+Examples include the extensive use of referendums in the US state of California, which is a state that has more than 20 million voters.
+In New England, town meetings are often used, especially in rural areas, to manage local government. This creates a hybrid form of government, with a local direct democracy and a representative state government. For example, most Vermont towns hold annual town meetings in March in which town officers are elected, budgets for the town and schools are voted on, and citizens have the opportunity to speak and be heard on political matters.
+
+Lot system
+The use of a lot system, a characteristic of Athenian democracy, is a feature of some versions of direct democracies. In this system, important governmental and administrative tasks are performed by citizens picked from a lottery.
+
+Representative
+Representative democracy involves the election of government officials by the people being represented. If the head of state is also democratically elected then it is called a democratic republic. The most common mechanisms involve election of the candidate with a majority or a plurality of the votes. Most western countries have representative systems.
+Representatives may be elected or become diplomatic representatives by a particular district (or constituency), or represent the entire electorate through proportional systems, with some using a combination of the two. Some representative democracies also incorporate elements of direct democracy, such as referendums. A characteristic of representative democracy is that while the representatives are elected by the people to act in the people's interest, they retain the freedom to exercise their own judgement as how best to do so. Such reasons have driven criticism upon representative democracy, pointing out the contradictions of representation mechanisms with democracy
+
+Parliamentary
+Parliamentary democracy is a representative democracy where government is appointed by or can be dismissed by, representatives as opposed to a "presidential rule" wherein the president is both head of state and the head of government and is elected by the voters. Under a parliamentary democracy, government is exercised by delegation to an executive ministry and subject to ongoing review, checks and balances by the legislative parliament elected by the people.
+In a parliamentary system, the prime minister may be dismissed by the legislature at any point in time for not meeting the expectations of the legislature. This is done through a vote of no confidence where the legislature decides whether or not to remove the prime minister from office with majority support for dismissal. In some countries, the prime minister can also call an election at any point in time, typically when the prime minister believes that they are in good favour with the public as to get re-elected. In other parliamentary democracies, extra elections are virtually never held, a minority government being preferred until the next ordinary elections. An important feature of the parliamentary democracy is the concept of the "loyal opposition". The essence of the concept is that the second largest political party (or opposition) opposes the governing party (or coalition), while still remaining loyal to the state and its democratic principles.
+
+Presidential
+Presidential democracy is a system where the public elects the president through an election. The president serves as both the head of state and head of government controlling most of the executive powers. The president serves for a specific term and cannot exceed that amount of time. The legislature often has limited ability to remove a president from office. Elections typically have a fixed date and are not easily changed. The president has direct control over the cabinet, specifically appointing the cabinet members.
+The executive usually has the responsibility to execute or implement legislation and may have the limited legislative powers, such as a veto. However, a legislative branch passes legislation and budgets. This provides some measure of separation of powers. In consequence, however, the president and the legislature may end up in the control of separate parties, allowing one to block the other and thereby interfere with the orderly operation of the state. This may be the reason why presidential democracy is not very common outside the Americas, Africa, and Central and Southeast Asia.
+A semi-presidential system is a system of democracy in which the government includes both a prime minister and a president. The particular powers held by the prime minister and president vary by country.
+
+Typology
+Constitutional monarchy
+Many countries such as the United Kingdom, Spain, the Netherlands, Belgium, Scandinavian countries, Thailand, Japan and Bhutan turned powerful monarchs into constitutional monarchs (often gradually) with limited or symbolic roles. For example, in the predecessor states to the United Kingdom, constitutional monarchy began to emerge and has continued uninterrupted since the Glorious Revolution of 1688 and passage of the Bill of Rights 1689. Strongly limited constitutional monarchies, such as the United Kingdom, have been referred to as crowned republics by writers such as H. G. Wells.
+In other countries, the monarchy was abolished along with the aristocratic system (as in France, China, Russia, Germany, Austria, Hungary, Italy, Greece, and Egypt). An elected person, with or without significant powers, became the head of state in these countries.
+Elite upper houses of legislatures, which often had lifetime or hereditary tenure, were common in many states. Over time, these either had their powers limited (as with the British House of Lords) or else became elective and remained powerful (as with the Australian Senate).
+
+Republic
+The term republic has many different meanings, but today often refers to a representative democracy with an elected head of state, such as a president, serving for a limited term, in contrast to states with a hereditary monarch as a head of state, even if these states also are representative democracies with an elected or appointed head of government such as a prime minister.
+The Founding Fathers of the United States often criticised direct democracy, which in their view often came without the protection of a constitution enshrining inalienable rights; James Madison argued, especially in The Federalist No. 10, that what distinguished a direct democracy from a republic was that the former became weaker as it got larger and suffered more violently from the effects of faction, whereas a republic could get stronger as it got larger and combats faction by its very structure.
+Professors Richard Ellis of Willamette University and Michael Nelson of Rhodes College argue that much constitutional thought, from Madison to Lincoln and beyond, has focused on "the problem of majority tyranny". They conclude, "The principles of republican government embedded in the Constitution represent an effort by the framers to ensure that the inalienable rights of life, liberty, and the pursuit of happiness would not be trampled by majorities." What was critical to American values, John Adams insisted, was that the government be "bound by fixed laws, which the people have a voice in making, and a right to defend." As Benjamin Franklin was exiting after writing the US Constitution, Elizabeth Willing Powel asked him "Well, Doctor, what have we got—a republic or a monarchy?". He replied "A republic—if you can keep it."
+
+Liberal
+A liberal democracy is a representative democracy which enshrines a liberal political philosophy, where the ability of the elected representatives to exercise decision-making power is subject to the rule of law, moderated by a constitution or laws such as the protection of the rights and freedoms of individuals, and constrained on the extent to which the will of the majority can be exercised against the rights of minorities.
+
+Socialist
+Socialist thought has several different views on democracy. Social democracy, democratic socialism, and the dictatorship of the proletariat are some examples. Many democratic socialists and social democrats believe in a form of participatory, industrial, economic and/or workplace democracy combined with a representative democracy.
+Trotskyist groups have interpreted socialist democracy to be synonymous with multi-party socialist representation, autonomous union organizations, worker's control of production, internal party democracy and the mass participation of the working masses.
+
+Marxist
+Within Marxist orthodoxy there is a hostility to what is commonly called "liberal democracy", which is referred to as parliamentary democracy because of its centralised nature. Because of orthodox Marxists' desire to eliminate the political elitism they see in capitalism, Marxists, Leninists, and Trotskyists believe in direct democracy implemented through a system of communes (which are sometimes called soviets). This system can begin with workplace democracy and ultimately manifests itself as council democracy.
+
+Anarchist
+Anarchists are split in this domain, depending on whether they believe that a majority-rule is tyrannic or not. To many anarchists, the only form of democracy considered acceptable is direct democracy. Pierre-Joseph Proudhon argued that the only acceptable form of direct democracy is one in which it is recognised that majority decisions are not binding on the minority, even when unanimous. However, anarcho-communist Murray Bookchin criticised individualist anarchists for opposing democracy, and says "majority rule" is consistent with anarchism.
+Some anarcho-communists oppose the majoritarian nature of direct democracy, feeling that it can impede individual liberty and opt-in favour of a non-majoritarian form of consensus democracy, similar to Proudhon's position on direct democracy.
+
+Sortition
+Sortition is the process of choosing decision-making bodies via a random selection. These bodies can be more representative of the opinions and interests of the people at large than an elected legislature or other decision-maker. The technique was in widespread use in Athenian Democracy and Renaissance Florence and is still used in modern jury selection and citizens' assemblies.
+
+Consociational
+Consociational democracy, also called consociationalism, is a form of democracy based on power-sharing formula between elites representing the social groups within the society. In 1969, Arendt Lijphart argued this would stabilize democracies with factions. A consociational democracy allows for simultaneous majority votes in two or more ethno-religious constituencies, and policies are enacted only if they gain majority support from both or all of them. The Qualified majority voting rule in European Council of Ministers is a consociational democracy approach for supranational democracies. This system in Treaty of Rome allocates votes to member states in part according to their population, but heavily weighted in favour of the smaller states. A consociational democracy requires consensus of representatives, while consensus democracy requires consensus of electorate.
+
+Majoritarian
+Consensus
+Consensus democracy requires consensus decision-making and supermajority to obtain a larger support than majority. In contrast, in majoritarian democracy minority opinions can potentially be ignored by vote-winning majorities. Constitutions typically require consensus or supermajorities.
+
+Ethnic
+Inclusive
+Inclusive democracy is a political theory and political project that aims for direct democracy in all fields of social life: political democracy in the form of face-to-face assemblies which are confederated, economic democracy in a stateless, moneyless and marketless economy, democracy in the social realm, i.e. self-management in places of work and education, and ecological democracy which aims to reintegrate society and nature. The theoretical project of inclusive democracy emerged from the work of political philosopher Takis Fotopoulos in "Towards An Inclusive Democracy" and was further developed in the journal Democracy & Nature and its successor The International Journal of Inclusive Democracy.
+
+Participatory
+A parpolity or participatory polity is a theoretical form of democracy that is ruled by a nested council structure. The guiding philosophy is that people should have decision-making power in proportion to how much they are affected by the decision. Local councils of 25–50 people are completely autonomous on issues that affect only them, and these councils send delegates to higher level councils who are again autonomous regarding issues that affect only the population affected by that council.
+A council court of randomly chosen citizens serves as a check on the tyranny of the majority, and rules on which body gets to vote on which issue. Delegates may vote differently from how their sending council might wish but are mandated to communicate the wishes of their sending council. Delegates are recallable at any time. Referendums are possible at any time via votes of lower-level councils, however, not everything is a referendum as this is most likely a waste of time. A parpolity is meant to work in tandem with a participatory economy.
+
+Procedural
+Radical
+Radical democracy is based on the idea that there are hierarchical and oppressive power relations that exist in society. Radical democracy's role is to make visible and challenge those relations by allowing for difference, dissent and antagonisms in decision-making processes.
+
+Religious
+Cosmopolitan
+Cosmopolitan democracy, also known as global democracy or world federalism, is a political system in which democracy is implemented on a global scale, either directly or through representatives. An important justification for this kind of system is that the decisions made in national or regional democracies often affect people outside the constituency who, by definition, cannot vote. By contrast, in a cosmopolitan democracy, the people who are affected by decisions also have a say in them.
+According to its supporters, any attempt to solve global problems is undemocratic without some form of cosmopolitan democracy. The general principle of cosmopolitan democracy is to expand some or all of the values and norms of democracy, including the rule of law; the non-violent resolution of conflicts; and equality among citizens, beyond the limits of the state. To be fully implemented, this would require reforming existing international organisations, e.g., the United Nations, as well as the creation of new institutions such as a World Parliament, which ideally would enhance public control over, and accountability in, international politics.
+Cosmopolitan democracy has been promoted, among others, by physicist Albert Einstein, writer Kurt Vonnegut, columnist George Monbiot, and professors David Held and Daniele Archibugi. The creation of the International Criminal Court in 2003 was seen as a major step forward by many supporters of this type of cosmopolitan democracy.
+
+Creative
+Creative democracy is advocated by American philosopher John Dewey. The main idea about creative democracy is that democracy encourages individual capacity building and the interaction among the society. Dewey argues that democracy is a way of life in his work of "Creative Democracy: The Task Before Us" and an experience built on faith in human nature, faith in human beings, and faith in working with others. Democracy, in Dewey's view, is a moral ideal requiring actual effort and work by people; it is not an institutional concept that exists outside of ourselves. "The task of democracy", Dewey concludes, "is forever that of creation of a freer and more humane experience in which all share and to which all contribute".
+
+Guided
+Guided democracy is a form of democracy that incorporates regular popular elections, but which often carefully "guides" the choices offered to the electorate in a manner that may reduce the ability of the electorate to truly determine the type of government exercised over them. Such democracies typically have only one central authority which is often not subject to meaningful public review by any other governmental authority. Russian-style democracy has often been referred to as a "guided democracy". Russian politicians have referred to their government as having only one center of power/ authority, as opposed to most other forms of democracy which usually attempt to incorporate two or more naturally competing sources of authority within the same government.
+
+Non-governmental democracy
+Aside from the public sphere, similar democratic principles and mechanisms of voting and representation have been used to govern other kinds of groups. Many non-governmental organisations decide policy and leadership by voting. Most trade unions and cooperatives are governed by democratic elections. Corporations are ultimately governed by their shareholders through shareholder democracy. Corporations may also employ systems such as workplace democracy to handle internal governance. Amitai Etzioni has postulated a system that fuses elements of democracy with sharia law, termed Islamic democracy or Islamocracy. There is also a growing number of Democratic educational institutions such as Sudbury schools that are co-governed by students and staff.
+
+Shareholder democracy
+Shareholder democracy is a concept relating to the governance of corporations by their shareholders. In the United States, shareholders are typically granted voting rights according to the one share, one vote principle. Shareholders may vote annually to elect the company's board of directors, who themselves may choose the company's executives. The shareholder democracy framework may be inaccurate for companies which have different classes of stock that further alter the distribution of voting rights.
+
+Justification
+Several justifications for democracy have been postulated.
+
+Legitimacy
+Social contract theory argues that the legitimacy of government is based on consent of the governed, i.e. an election, and that political decisions must reflect the general will. Some proponents of the theory like Jean-Jacques Rousseau advocate for a direct democracy on this basis.
+
+Better decision-making
+Condorcet's jury theorem is logical proof that if each decision-maker has a better than chance probability of making the right decision, then having the largest number of decision-makers, i.e. a democracy, will result in the best decisions. This has also been argued by theories of the wisdom of the crowd. Democracy tends to improve conflict resolution.
+
+Economic success
+In Why Nations Fail, economists Daron Acemoglu and James A. Robinson argue that democracies are more economically successful because undemocratic political systems tend to limit markets and favor monopolies at the expense of the creative destruction which is necessary for sustained economic growth.
+A 2019 study by Acemoglu and others estimated that countries switching to democratic from authoritarian rule had on average a 20% higher GDP after 25 years than if they had remained authoritarian. The study examined 122 transitions to democracy and 71 transitions to authoritarian rule, occurring from 1960 to 2010. Acemoglu said this was because democracies tended to invest more in health care and human capital, and reduce special treatment of regime allies.
+A 2023 study analyzed the long-term effects of democracy on economic prosperity using new data on GDP per capita and democracy for a dataset between 1789 and 2019. The results indicate that democracy substantially increases economic development.
+
+Democratic transitions
+A democratic transition describes a phase in a country's political system, often created as a result of an incomplete change from an authoritarian regime to a democratic one (or vice versa).
+
+Democratization
+Several philosophers and researchers have outlined historical and social factors seen as supporting the evolution of democracy. Other commentators have mentioned the influence of economic development. In a related theory, Ronald Inglehart suggests that improved living-standards in modern developed countries can convince people that they can take their basic survival for granted, leading to increased emphasis on self-expression values, which correlates closely with democracy.
+Douglas M. Gibler and Andrew Owsiak in their study argued about the importance of peace and stable borders for the development of democracy. It has often been assumed that democracy causes peace, but this study shows that, historically, peace has almost always predated the establishment of democracy.
+Carroll Quigley concludes that the characteristics of weapons are the main predictor of democracy: Democracy—this scenario—tends to emerge only when the best weapons available are easy for individuals to obtain and use. By the 1800s, guns were the best personal weapons available, and in the United States of America (already nominally democratic), almost everyone could afford to buy a gun, and could learn how to use it fairly easily. Governments could not do any better: it became the age of mass armies of citizen soldiers with guns. Similarly, Periclean Greece was an age of the citizen soldier and democracy.
+Other theories stressed the relevance of education and of human capital—and within them of cognitive ability to increasing tolerance, rationality, political literacy and participation. Two effects of education and cognitive ability are distinguished:
+
+a cognitive effect (competence to make rational choices, better information-processing)
+an ethical effect (support of democratic values, freedom, human rights etc.), which itself depends on intelligence.
+Evidence consistent with conventional theories of why democracy emerges and is sustained has been hard to come by. Statistical analyses have challenged modernisation theory by demonstrating that there is no reliable evidence for the claim that democracy is more likely to emerge when countries become wealthier, more educated, or less unequal. In fact, empirical evidence shows that economic growth and education may not lead to increased demand for democratization as modernization theory suggests: historically, most countries attained high levels of access to primary education well before transitioning to democracy. Rather than acting as a catalyst for democratization, in some situations education provision may instead be used by non-democratic regimes to indoctrinate their subjects and strengthen their power.
+The assumed link between education and economic growth is called into question when analyzing empirical evidence. Across different countries, the correlation between education attainment and math test scores is very weak (.07). A similarly weak relationship exists between per-pupil expenditures and math competency (.26). Additionally, historical evidence suggests that average human capital (measured using literacy rates) of the masses does not explain the onset of industrialization in France from 1750 to 1850 despite arguments to the contrary. Together, these findings show that education does not always promote human capital and economic growth as is generally argued to be the case. Instead, the evidence implies that education provision often falls short of its expressed goals, or, alternatively, that political actors use education to promote goals other than economic growth and development.
+Some scholars have searched for the "deep" determinants of contemporary political institutions, be they geographical or demographic.
+An example of this is the disease environment. Places with different mortality rates had different populations and productivity levels around the world. For example, in Africa, the tsetse fly—which afflicts humans and livestock—reduced the ability of Africans to plough the land. This made Africa less settled. As a consequence, political power was less concentrated. This also affected the colonial institutions European countries established in Africa. Whether colonial settlers could live or not in a place made them develop different institutions which led to different economic and social paths. This also affected the distribution of power and the collective actions people could take. As a result, some African countries ended up having democracies and others autocracies.
+An example of geographical determinants for democracy is having access to coastal areas and rivers. This natural endowment has a positive relation with economic development thanks to the benefits of trade. Trade brought economic development, which in turn, broadened power. Rulers wanting to increase revenues had to protect property-rights to create incentives for people to invest. As more people had more power, more concessions had to be made by the ruler and in many places this process lead to democracy. These determinants defined the structure of the society moving the balance of political power.
+Robert Michels asserts that although democracy can never be fully realised, democracy may be developed automatically in the act of striving for democracy:
+
+The peasant in the fable, when on his deathbed, tells his sons that a treasure is buried in the field. After the old man's death the sons dig everywhere in order to discover the treasure. They do not find it. But their indefatigable labor improves the soil and secures for them a comparative well-being. The treasure in the fable may well symbolise democracy.
+Democracy in modern times has almost always faced opposition from the previously existing government, and many times it has faced opposition from social elites. The implementation of a democratic government from a non-democratic state is typically brought by peaceful or violent democratic revolution.
+
+Autocratization
+Steven Levitsky says: “It's not up to voters to defend a democracy. That’s asking far, far too much of voters, to cast their ballot on the basis of some set of abstract principles or procedures. With the exception of a handful of cases, voters never, ever — in any society, in any culture — prioritize democracy over all else. Individual voters worry about much more mundane things, as is their right. It is up to élites and institutions to protect democracy — not voters.”
+
+Disruption
+Some democratic governments have experienced sudden state collapse and regime change to an undemocratic form of government. Domestic military coups or rebellions are the most common means by which democratic governments have been overthrown. (See List of coups and coup attempts by country and List of civil wars.) Examples include the Spanish Civil War, the Coup of 18 Brumaire that ended the French First Republic, and the 28 May 1926 coup d'état which ended the First Portuguese Republic. Some military coups are supported by foreign governments, such as the 1954 Guatemalan coup d'état and the 1953 Iranian coup d'état. Other types of a sudden end to democracy include:
+
+Invasion, for example the German occupation of Czechoslovakia, and the fall of South Vietnam.
+Self-coup, in which the leader of the government extra-legally seizes all power or unlawfully extends the term in office. This can be done through:
+Suspension of the constitution by decree, such as with the 1992 Peruvian coup d'état
+An "electoral self-coup" using election fraud to obtain re-election of a previously fairly elected official or political party. For example, in the 1999 Ukrainian presidential election, 2003 Russian legislative election, and 2004 Russian presidential election.
+Royal coup, in which a monarch not normally involved in government seizes all power. For example, the 6 January Dictatorship, begun in 1929 when King Alexander I of Yugoslavia dismissed parliament and started ruling by decree.
+Democratic backsliding can end democracy in a gradual manner, by increasing emphasis on national security and eroding free and fair elections, freedom of expression, independence of the judiciary, rule of law. A famous example is the Enabling Act of 1933, which lawfully ended democracy in Weimar Germany and marked the transition to Nazi Germany.
+Temporary or long-term political violence and government interference can prevent free and fair elections, which erode the democratic nature of governments. This has happened on a local level even in well-established democracies like the United States; for example, the Wilmington insurrection of 1898 and African-American disfranchisement after the Reconstruction era.
+
+Debates on democracy
+Influence of the media
+The theory of democracy relies on the implicit assumption that voters are well informed about social issues, policies, and candidates so that they can make a truly informed decision. Since the late 20th century there has been a growing concern that voters may be poorly informed due to the news media's focusing more on entertainment and gossip and less on serious journalistic research on political issues.
+The media professors Michael Gurevitch and Jay Blumler have proposed a number of functions that the mass media are expected to fulfill in a democracy:
+
+Surveillance of the sociopolitical environment
+Meaningful agenda setting
+Platforms for an intelligible and illuminating advocacy
+Dialogue across a diverse range of views
+Mechanisms for holding officials to account for how they have exercised power
+Incentives for citizens to learn, choose, and become involved
+A principled resistance to the efforts of forces outside the media to subvert their independence, integrity, and ability to serve the audience
+A sense of respect for the audience member, as potentially concerned and able to make sense of his or her political environment
+This proposal has inspired a lot of discussions over whether the news media are actually fulfilling the requirements that a well functioning democracy requires.
+Commercial mass media are generally not accountable to anybody but their owners, and they have no obligation to serve a democratic function. They are controlled mainly by economic market forces. Fierce economic competition may force the mass media to divert themselves from any democratic ideals and focus entirely on how to survive the competition.
+The tabloidization and popularization of the news media is seen in an increasing focus on human examples rather than statistics and principles. There is more focus on politicians as personalities and less focus on political issues in the popular media. Election campaigns are covered more as horse races and less as debates about ideologies and issues. The dominating media focus on spin, conflict, and competitive strategies has made voters perceive the politicians as egoists rather than idealists. This fosters mistrust and a cynical attitude to politics, less civic engagement, and less interest in voting.
+The ability to find effective political solutions to social problems is hampered when problems tend to be blamed on individuals rather than on structural causes.
+This person-centered focus may have far-reaching consequences not only for domestic problems but also for foreign policy when international conflicts are blamed on foreign heads of state rather than on political and economic structures.
+A strong media focus on fear and terrorism has allowed military logic to penetrate public institutions, leading to increased surveillance and the erosion of civil rights.
+The responsiveness and accountability of the democratic system is compromised when lack of access to substantive, diverse, and undistorted information is handicapping the citizens' capability of evaluating the political process.
+The fast pace and trivialization in the competitive news media is dumbing down the political debate. Thorough and balanced investigation of complex political issues does not fit into this format. The political communication is characterized by short time horizons, short slogans, simple explanations, and simple solutions. This is conducive to political populism rather than serious deliberation.
+Commercial mass media are often differentiated along the political spectrum so that people can hear mainly opinions that they already agree with. Too much controversy and diverse opinions are not always profitable for the commercial news media.
+Political polarization is emerging when different people read different news and watch different TV channels. This polarization has been worsened by the emergence of the social media that allow people to communicate mainly with groups of like-minded people, the so-called echo chambers.
+Extreme political polarization may undermine the trust in democratic institutions, leading to erosion of civil rights and free speech and in some cases even reversion to autocracy.
+Many media scholars have discussed non-commercial news media with public service obligations as a means to improve the democratic process by providing the kind of political contents that a free market does not provide.
+The World Bank has recommended public service broadcasting in order to strengthen democracy in developing countries. These broadcasting services should be accountable to an independent regulatory body that is adequately protected from interference from political and economic interests.
+Public service media have an obligation to provide reliable information to voters. Many countries have publicly funded radio and television stations with public service obligations, especially in Europe and Japan, while such media are weak or non-existent in other countries including the US.
+Several studies have shown that the stronger the dominance of commercial broadcast media over public service media, the less the amount of policy-relevant information in the media and the more focus on horse race journalism, personalities, and the pecadillos of politicians. Public service broadcasters are characterized by more policy-relevant information and more respect for journalistic norms and impartiality than the commercial media. However, the trend of deregulation has put the public service model under increased pressure from competition with commercial media.
+The emergence of the internet and the social media has profoundly altered the conditions for political communication. The social media have given ordinary citizens easy access to voice their opinion and share information while bypassing the filters of the large news media. This is often seen as an advantage for democracy. The new possibilities for communication have fundamentally changed the way social movements and protest movements operate and organize. The internet and social media have provided powerful new tools for democracy movements in developing countries and emerging democracies, enabling them to bypass censorship, voice their opinions, and organize protests.
+A serious problem with the social media is that they have no truth filters. The established news media have to guard their reputation as trustworthy, while ordinary citizens may post unreliable information. In fact, studies show that false stories are going more viral than true stories.
+The proliferation of false stories and conspiracy theories may undermine public trust in the political system and public officials.
+Reliable information sources are essential for the democratic process. Less democratic governments rely heavily on censorship, propaganda, and misinformation in order to stay in power, while independent sources of information are able to undermine their legitimacy.
+
+Democracy promotion
+Democracy promotion can increase the quality of already existing democracies, reduce political apathy, and the chance of democratic backsliding. Democracy promotion measures include voting advice applications, participatory democracy, increasing youth suffrage, increasing civic education, reducing barriers to entry for new political parties, increasing proportionality and reducing presidentialism.
+
+See also
+Footnotes
+References
+Works cited
+Further reading
+Cartledge, Paul (2016). Democracy: A Life. Oxford University Press. ISBN 978-0199697670.
+Provost, Claire; Kennard, Matt (2023). Silent Coup: How Corporations Overthrew Democracy. Bloomsbury Academic. ISBN 978-1350269989.
+Biagini, Eugenio (general editor). 2021. A Cultural History of Democracy, 6 Volumes New York : Bloomsbury Academic.
+Taylor, Astra (2019). Democracy May Not Exist, but We'll Miss It When It's Gone. Metropolitan Books. ISBN 978-1250179845.
+Przeworski, Adam (2018) Why Bother With Elections? Cambridge, UK: Polity Press.
+Munck, Gerardo L. (2016) "What is Democracy? A Reconceptualization of the Quality of Democracy". Democratization 23(1): 1–26.
+Fuller, Roslyn (2015). Beasts and Gods: How Democracy Changed Its Meaning and Lost its Purpose. London: Zed Books. p. 371. ISBN 978-1-78360-542-2.
+
+External links
+
+Democracy at the Stanford Encyclopedia of Philosophy
+Podcast: Democracy Paradox, hundreds of interviews with democracy experts around the world
+
