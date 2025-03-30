@@ -54,6 +54,6 @@ print(model("This method demonstrates high academic rigor."))
 
 print(model("yo this is wild af lmao"))
 # → likely: informal
-
+'''
 The models file is more than 100Mb so I provide a link to it using Google Drive:
 https://drive.google.com/drive/u/0/folders/1DhLhtR3vyYP3RdBtCBmFtM-wImK-RYAU
