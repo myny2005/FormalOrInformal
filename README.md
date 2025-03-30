@@ -40,14 +40,14 @@ https://medium.com/@heyamit10/fine-tuning-bert-for-classification-a-practical-gu
 
 ## results  
 You’ll find saved models in the `models/` directory:
-- `distilbert-formality-fast/` → the fine-tuned DistilBERT model  
+- `distilbert/` → the fine-tuned DistilBERT model  
 
 You can run inference with:
 
 ```python
 from transformers import pipeline
 
-model = pipeline("text-classification", model="./models/distilbert-formality-fast")
+model = pipeline("text-classification", model="./models/distilbert")
 
 print(model("This method demonstrates high academic rigor."))
 # → likely: formal
