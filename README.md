@@ -23,13 +23,13 @@ There’s also a CSV file (`labeled_texts.csv`) that contains both types of text
 
 In the `scripts/` folder you'll find:
 
-- `prepare_data.py`  
+- `data_preparation.py`  
   Loads raw `.txt` files, labels the data, and outputs a single CSV you can use for training.
 
-- `train_baseline.py`  
+- `simple.ipynb`  
   Trains a simple **TF-IDF + Logistic Regression** model. Surprisingly effective for such a small and fast solution.
 
-- `train_distilbert.py`  
+- `fine_tune.ipynb`  
   Fine-tunes `distilbert-base-uncased` using Hugging Face Transformers.  
   Trained on **CPU only**, so the dataset is small — but the code is scalable. You can always add more data.
 
