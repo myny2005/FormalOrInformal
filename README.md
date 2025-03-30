@@ -1,14 +1,14 @@
 # FormalOrInformal
 
 ## requirements:
-transformers>=4.36.0
-datasets>=2.16.0
-torch>=2.0.0
-scikit-learn>=1.3.0
-pandas>=1.5.0
-tqdm>=4.66.0
-wikipedia-api>=0.6.0
-praw>=7.7.0
+- transformers>=4.36.0
+- datasets>=2.16.0 
+- torch>=2.0.0
+- scikit-learn>=1.3.0
+- pandas>=1.5.0
+- tqdm>=4.66.0
+- wikipedia-api>=0.6.0
+- praw>=7.7.0
 
 ## data  
 In the `data` folder there are 2 notebooks which scrape informal data from Reddit and formal data from Wikipedia.  
