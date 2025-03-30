@@ -12,7 +12,7 @@ praw>=7.7.0
 
 ## data  
 In the `data` folder there are 2 notebooks which scrape informal data from Reddit and formal data from Wikipedia.  
-If you want to scrape your own dataset, you'll need to use your own `praw` and Wikipedia API agent (user-agent string) 😅  
+If you want to scrape your own dataset, you'll need to use your own `praw` and Wikipedia API agent (user-agent string) 
 But don’t worry — to test the model, the provided `.txt` files are totally enough.  
 
 There’s also a CSV file (`labeled_texts.csv`) that contains both types of texts, already labeled:
@@ -54,6 +54,6 @@ print(model("This method demonstrates high academic rigor."))
 
 print(model("yo this is wild af lmao"))
 # → likely: informal
-'''
+```
 The models file is more than 100Mb so I provide a link to it using Google Drive:
 https://drive.google.com/drive/u/0/folders/1DhLhtR3vyYP3RdBtCBmFtM-wImK-RYAU
