@@ -50,10 +50,10 @@ from transformers import pipeline
 model = pipeline("text-classification", model="./models/distilbert")
 
 print(model("This method demonstrates high academic rigor."))
-# → likely: formal
+# likely: formal
 
 print(model("yo this is wild af lmao"))
-# → likely: informal
+# likely: informal
 ```
 The models file is more than 100MB so I provide a link to it using Google Drive:
 https://drive.google.com/drive/u/0/folders/1DhLhtR3vyYP3RdBtCBmFtM-wImK-RYAU
