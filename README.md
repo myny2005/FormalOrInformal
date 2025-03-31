@@ -38,7 +38,8 @@ In the `scripts/` folder you'll find:
 This article is worth mentioning and it helped me a lot!
 https://medium.com/@heyamit10/fine-tuning-bert-for-classification-a-practical-guide-b8c1c56f252c
 
-## results  
+## results
+This model does incredibly well and hardly ever makes any mistakes!
 You’ll find saved models in the `models/` directory:
 - `distilbert/` → the fine-tuned DistilBERT model  
 
