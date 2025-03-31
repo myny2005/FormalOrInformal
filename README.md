@@ -27,7 +27,7 @@ In the `scripts/` folder you'll find:
   Loads raw `.txt` files, labels the data, and outputs a single CSV you can use for training.
 
 - `simple.ipynb`  
-  Trains a simple **TF-IDF + Logistic Regression** model. Surprisingly effective for such a small and fast solution.
+  Trains a simple **TF-IDF + Logistic Regression** model. Surprisingly effective for such a small and fast solution (evaluated using F1 Score: https://en.wikipedia.org/wiki/F-score).
 
 - `fine_tune.ipynb`  
   Fine-tunes `distilbert-base-uncased` using Hugging Face Transformers.  
@@ -39,7 +39,7 @@ This article is worth mentioning and it helped me a lot!
 https://medium.com/@heyamit10/fine-tuning-bert-for-classification-a-practical-guide-b8c1c56f252c
 
 ## results
-This model does incredibly well and hardly ever makes any mistakes!
+This model does incredibly well and hardly ever makes any mistakes! 
 You’ll find saved models in the `models/` directory:
 - `distilbert/` → the fine-tuned DistilBERT model  
 
